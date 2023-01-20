@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.MerchantRegister"
+             xmlns:vm="XamarinMobile.ViewModels" xmlns:viewModels="clr-namespace:XamarinMobile.ViewModels"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White"
+             Title="MerchantRegister">
+    <ContentPage.BindingContext>
+        <viewModels:RegisterViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid RowSpacing="2" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="*"></RowDefinition>
+                </Grid.RowDefinitions>
+            <Label Grid.Row="0" FontFamily="L-Reg5" Text="Register Here" FontSize="36"  FontAttributes="Bold" TextColor="#CD7F32" HorizontalOptions="CenterAndExpand"></Label>
+                <Frame Grid.Row="1" Margin="0,0,0,-40" BorderColor="#334357" HasShadow="True" BackgroundColor="WhiteSmoke" CornerRadius="50" HeightRequest="700">
+                    
+                <ScrollView VerticalScrollBarVisibility="Always" HeightRequest="3000">
+                    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="20" Padding="20,50,20,0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Entry FontFamily="L-Reg5" Grid.Row="0" Placeholder="Name" x:Name="merchName" Text="{Binding MerchName}" Margin="0,5,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357" ></Entry>
+                        <Entry FontFamily="L-Reg5" Grid.Row="1" Placeholder="Surname" x:Name="merchSurname" Text="{Binding MerchSurname}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+                        <Entry FontFamily="L-Reg5" Grid.Row="2" Placeholder="Email" x:Name="merchEmail" Text="{Binding MerchEmail}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+                        <Entry FontFamily="L-Reg5" Grid.Row="3" Placeholder="Contact details" x:Name="merchContactDetails"  Text="{Binding MerchContactdetails}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+                        <Entry FontFamily="L-Reg5" Grid.Row="4" Placeholder="Address" x:Name="merchAddress" Text="{Binding MerchAddress}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+                        <Entry FontFamily="L-Reg5" Grid.Row="5" Placeholder="City" x:Name="merchCity" Text="{Binding MerchCity}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+                        <Entry FontFamily="L-Reg5" Grid.Row="6" Placeholder="Province" x:Name="merchProvince" Text="{Binding MerchProvince}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+                        <StackLayout Grid.Row="8"
+                                     RadioButtonGroup.GroupName="merchantType"
+                                     
+                                     RadioButtonGroup.SelectedValue="{Binding MerchType}"
+                                     x:Name="merchantRadioType">
+                            <Label Text="{Binding MerchType,StringFormat='Your Category Is: {0}'}"  FontSize="24"  FontAttributes="Bold" TextColor="#334357" HorizontalOptions="CenterAndExpand" />
+                            <RadioButton FontFamily="L-Reg5" Content="Gardener" x:Name="merchGardener" IsChecked="True" Value="GARDENER"/>
+                            <RadioButton FontFamily="L-Reg5" Content="GateMaking" x:Name="merchGateMaking" Value="GATEMAKING"/>
+                            <RadioButton FontFamily="L-Reg5" Content="Tiling" x:Name="merchTiling" Value="TILING"/>
+                            <RadioButton FontFamily="L-Reg5" Content="Bricklaying" x:Name="merchBricklaying" Value="BRICKLAYING"/>
+                            <RadioButton FontFamily="L-Reg5" Content="Carpentry" x:Name="merchCarpentry" Value="CARPENTRY"/>
+                            <RadioButton FontFamily="L-Reg5" Content="Plumbing" x:Name="merchPlumbing" Value="PLUMBING"/>
+                            <RadioButton FontFamily="L-Reg5" Content="Plastering" x:Name="merchPlastering" Value="PLASTERING"/>
+                        </StackLayout>
+                        <Entry FontFamily="L-Reg5" Grid.Row="10" x:Name="password" Placeholder="Password" Text="{Binding MerchPassword}" IsPassword="True"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+                        <Entry FontFamily="L-Reg5" Grid.Row="11" Placeholder="Retry Password" x:Name="retryPassword" IsPassword="True"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+                        <Button FontFamily="L-Reg5" Grid.Row="12" Text="Register Account" Command="{Binding RegisterCommand}" BackgroundColor="#334357" BorderWidth="5" BorderColor="#CD7F32"  CornerRadius="20" Clicked="VerifyAcc"></Button>
+                        <Button FontFamily="L-Reg5" Grid.Row="13" Margin="25,0,0,0"  Text="Already a user? click here" TextColor="DimGray"  FontAttributes="Bold" HorizontalOptions="CenterAndExpand"  BackgroundColor="WhiteSmoke" FontSize="14" Clicked="LoginClicked"></Button>
+                        <Label  Grid.Row="14"></Label>
+                    </Grid>
+                </ScrollView>
+               </Frame>
+            </Grid>
+    </ContentPage.Content>
+</ContentPage>

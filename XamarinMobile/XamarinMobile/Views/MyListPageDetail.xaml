@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Views.MyListPageDetail"
+             Title="Booking Request Details"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center">
+            <Label Text="Client Details" HorizontalTextAlignment="Center"/>
+            <Image x:Name="MyImageCall" HeightRequest="100" WidthRequest="100"/>
+            <Label x:Name="MyItemNameShow" HorizontalTextAlignment="Center"/>
+            <Label x:Name="MyIngrediantItemShow" Margin="20,20" FontSize="Small"/>
+            <Button x:Name="AcceptButton"
+                        Text="Accept"
+                        TextColor="PeachPuff"
+                        BorderWidth="2"
+                        BorderColor="PeachPuff"
+                        Margin="10,0,10,0"
+                        FontSize="18"
+                        Clicked="AcceptButton_Clicked"
+                        HeightRequest="60"
+                        CornerRadius="60"
+                        BackgroundColor="#334357"/>
+            <Button x:Name="DeclineButton"
+                        Text="Decline"
+                        TextColor="Red"
+                        BorderWidth="2"
+                        BorderColor="Red"
+                        BackgroundColor="#334357"
+                        Margin="10,0,10,0"
+                        FontSize="18"
+                        HeightRequest="60"
+                        CornerRadius="50"
+                        Clicked="DeclineButton_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

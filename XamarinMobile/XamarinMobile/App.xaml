@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.App">
+    <!--
+        Define global resources and styles here, that apply to all pages in your app.
+    -->
+
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:String" x:Key="FontAwesomeSolid" Android="FontAwesome5FreeSolid900.otf#Regular" iOS="FontAwesome5Free-Solid" />
+            <OnPlatform x:TypeArguments="x:String" x:Key="FontAwesomeBrands" Android="FontAwesome5BrandsRegular400.otf#Regular" iOS="FontAwesome5Brands-Regular" />
+            <OnPlatform x:TypeArguments="x:String" x:Key="FontAwesomeRegular" Android="FontAwesome5FreeRegular400.otf#Regular" iOS="FontAwesome5Free-Regular" />
+
+            <Color x:Key="Primary">#334357</Color>
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="White"></Setter>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="{StaticResource Primary}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Disabled">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="#332196F3" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>        
+    </Application.Resources>
+</Application>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Booking.Quotation"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="160"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Frame Grid.Row="0" BackgroundColor="#334357" CornerRadius="20" BorderColor="#CD7F32" Margin="0,-70,0,0">
+                <Label Grid.Row="0" FontFamily="L-Reg5" Text="Quotations" FontSize="36" Margin="0,130,0,0" FontAttributes="Bold" TextColor="#CD7F32" HorizontalOptions="CenterAndExpand"></Label>
+            </Frame>
+
+            <Grid Grid.Row="1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="20">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                    <RowDefinition Height="Auto"></RowDefinition>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Row="1" FontFamily="L-Reg5" Margin="0,-15,0,0" Text="One Item after the other:)" TextColor="#CD7F32" FontSize="18" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"></Label>
+                <Editor x:Name="QuoteAmount"
+                        Grid.Row="2" 
+                           Placeholder="Total Qutation Cost" 
+                           Margin="20,0,20,0" 
+                           HorizontalOptions="FillAndExpand" 
+                           VerticalOptions="FillAndExpand" 
+                           PlaceholderColor="#CD7F32"
+                           Keyboard="Text"
+                            FontAttributes="Bold"
+                        FontFamily="L-Reg5"
+                           AutoSize="TextChanges"
+                           TextColor="Black">
+                </Editor>
+
+                <Editor x:Name="QuoteDescription"
+                        Grid.Row="4" 
+                           Placeholder="Quotation Details" 
+                           Margin="20,0,20,0" 
+                        FontFamily="L-Reg5"
+                           HorizontalOptions="FillAndExpand" 
+                           VerticalOptions="FillAndExpand" 
+                           PlaceholderColor="#CD7F32"
+                           Keyboard="Text"
+                            FontAttributes="Bold"
+                           AutoSize="TextChanges"
+                           TextColor="Black">
+                </Editor>
+                <!--<Button Grid.Row="4" 
+                            Text="Upload Quotation Photo"
+                            BackgroundColor="#a1892e" 
+                            CornerRadius="20" 
+                            Clicked="btnUploadPhoto_Clicked"></Button>-->
+            </Grid>
+            <Button Grid.Row="2"
+                            BorderWidth="3"
+                            BorderColor="#CD7F32"
+                            Text="Upload Written Quotation" 
+                    FontFamily="L-Reg5"
+                            BackgroundColor="#334357"
+                            TextColor="White"
+                            CornerRadius="20"
+                            FontAttributes="Bold"
+                            Margin="10,0,10,60"
+                            Clicked="Button_Clicked"></Button>
+            <Frame Grid.Row="3" HorizontalOptions="FillAndExpand"   Opacity="1" CornerRadius="20" BorderColor="#CD7F32" Margin="0,0,0,-90">
+
+            </Frame>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

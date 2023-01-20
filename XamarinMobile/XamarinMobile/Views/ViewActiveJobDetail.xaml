@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Views.ViewActiveJobDetail"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid RowDefinitions="220,Auto">
+
+            <Frame Grid.Row="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  BackgroundColor="#334357" WidthRequest="5" CornerRadius="20" BorderColor="#CD7F32" Margin="0,-50,0,0">
+                    <Label Grid.Row="7" 
+                           Grid.Column="0" 
+                           Grid.ColumnSpan="3" 
+                           Text="Job Details" 
+                           TextColor="#CD7F32"
+                           FontFamily="L-Reg5"
+                           FontSize="30" 
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           Padding="0,110,0,0"/>
+                
+            </Frame>
+                <Grid Grid.Row="1" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*">
+
+                    <Label Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" Padding="10">
+                        <Label.FormattedText>
+                            <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Job Status: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="jobss" TextColor="#CD7F32"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                <!--<Label Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" Padding="10">
+                        <Label.FormattedText>
+                            <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Booking Date/Time: " FontAttributes="Bold"/>
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="mBookDatetime" TextColor="#CD7F32"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>-->
+
+                <Label Grid.Row="2" Grid.Column="0" Padding="10" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" >
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span FontFamily="L-Reg5" FontSize="17" Text="Client Names: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="userN" TextColor="#CD7F32"/>
+                            <Span  FontSize="17" Text=" " TextColor="#CD7F32"/>
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="userS" TextColor="#CD7F32"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                <Label Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="Center" Padding="10" Grid.ColumnSpan="3" >
+                        <Label.FormattedText>
+                            <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Client Address: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="userAdd" TextColor="#CD7F32"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                <Label Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Center" Padding="10" Grid.ColumnSpan="3" >
+                        <Label.FormattedText>
+                            <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Contact Details: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="contactDetails" TextColor="#CD7F32"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                <Label Grid.Row="5" Padding="10" Grid.Column="0" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" >
+                        <Label.FormattedText>
+                            <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Client Email: " FontAttributes="Bold" />
+                            <Span  FontFamily="L-Reg5" FontSize="17" x:Name="userE" TextColor="#CD7F32"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Button x:Name="AcceptBooking"
+                            Grid.Row="6"
+                            Grid.Column="0"
+                            WidthRequest="200"
+                            FontFamily="L-Reg5"
+                        Text="Log Job Done"
+                        TextColor="#CD7F32"
+                        BorderWidth="2"
+                        BorderColor="#CD7F32"
+                        FontSize="18"
+                        Clicked="AcceptBooking_Clicked"
+                        HeightRequest="60"
+                        CornerRadius="60"
+                            Margin="20,0,-20,0"
+                        BackgroundColor="#334357"
+                            HorizontalOptions="Center"/>
+                    <Button x:Name="DecineBooking"
+                            Grid.Row="6"
+                            Grid.Column="1"
+                            WidthRequest="200"
+                        Text="Home"
+                        TextColor="#CD7F32"
+                        BorderWidth="2"
+                        BorderColor="#334357"
+                            FontFamily="L-Reg5"
+                        BackgroundColor="White"
+                        FontSize="18"
+                        HeightRequest="60"
+                        CornerRadius="50"
+                            Margin="100,0,-100,0"
+                        Clicked="DecineBooking_Clicked"
+                        HorizontalOptions="Center"/>
+                </Grid>
+            
+            
+            <!--<Label x:Name="userN" />
+            <Label x:Name="userS"/>
+            <Label x:Name="userE"/>
+            <Label x:Name="contactDetails"/>
+            <Label x:Name="userAdd"/>
+            <Label x:Name="userP"/>
+            <Label x:Name="userC"/>
+            <Label x:Name="jobss"/>-->
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

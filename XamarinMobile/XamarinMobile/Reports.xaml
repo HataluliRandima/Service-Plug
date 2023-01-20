@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Reports"
+             Shell.NavBarIsVisible="False"
+             xmlns:microcharts1="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:fi="clr-namespace:MaterialFonts.Fonts"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <Grid RowDefinitions="220,Auto" RowSpacing="5" >
+            <Frame Grid.Row="0" BackgroundColor="#334357" CornerRadius="20" BorderColor="#CD7F32" Margin="0,-20,0,0">
+
+                <Label FontFamily="L-Reg5" Text="Reports" TextColor="#CD7F32" FontSize="30" VerticalOptions="Center" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+            </Frame>
+            
+            <ScrollView HeightRequest="3000" Grid.Row="1">
+                <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto" RowSpacing="10">
+                    <Label Grid.Row="0"  Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="All requests:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="totalActiveRequests"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <Label Grid.Row="1" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Total Active requests:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="AllRequests"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label Grid.Row="2" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Jobs Completed:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="totalCompletedJobs"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label Grid.Row="3" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Total Rejected Jobs:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="totalRejectedJobs"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    
+                    <!--<Label Grid.Row="5" Margin="20,0,20,0">-->
+
+
+
+                        <Label Grid.Row="4" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="January:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtJan"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+
+
+                    <Label Grid.Row="5" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="February:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtFeb"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+
+                    <Label Grid.Row="6" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="March:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtMarch"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+
+
+                    <Label Grid.Row="7" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="April:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtApril"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+
+                    <Label Grid.Row="8" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="May:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtMay"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+
+                    <Label Grid.Row="9" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="June:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtJune"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+
+                    <Label Grid.Row="10" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="July:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtJuly"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+
+                    <Label Grid.Row="11" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="August:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtAug"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+
+                    <Label Grid.Row="12" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="September:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtSept"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+
+                    <Label Grid.Row="13" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="October:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtOct"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <Label Grid.Row="14" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="November:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtNov"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+
+                    <Label Grid.Row="15" Margin="20,0,20,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="December:" FontFamily="L-Reg5" FontSize="20" TextColor="#334357" FontAttributes="Bold"/>
+                                <Span Text="  "/>
+                                <Span  FontFamily="L-Reg5" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" x:Name="txtDec"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <StackLayout Grid.Row="16">
+                        <microcharts1:ChartView x:Name="lineChart" HeightRequest="500"/>
+                        <microcharts1:ChartView x:Name="barChart" HeightRequest="500"/>
+                        <microcharts1:ChartView x:Name="donutChart" HeightRequest="500"/>
+                    </StackLayout>
+
+                </Grid>
+
+            </ScrollView>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

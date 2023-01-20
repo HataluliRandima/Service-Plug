@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Views.ClientRegister">
+    <ContentPage.Content>
+        <StackLayout x:Name="MainStack">
+            <StackLayout Padding="5" Margin="0,90,0,0">
+
+                <Label Text="Client Register" TextColor="#334357" FontSize="26" HorizontalOptions="Center"></Label>
+                
+                <Label Text="Name" TextColor="#a1891e" ></Label>
+                <Entry Text="" Placeholder="Name" x:Name="nameEntry" PlaceholderColor="Gray"></Entry>
+
+                <Label Text="Surname" TextColor="#a1891e" ></Label>
+                <Entry Text="" Placeholder="Surname" x:Name="surnameEntry" PlaceholderColor="Gray"></Entry>
+
+                <Label Text="Contact Details" TextColor="#a1891e" ></Label>
+                <Entry Text="" Placeholder="contacts" x:Name="contactEntry" PlaceholderColor="Gray"></Entry>
+
+                <Label Text="Address" TextColor="#a1891e" ></Label>
+                <Entry Text="" Placeholder="Address" x:Name="addressEntry" PlaceholderColor="Gray"></Entry>
+
+                <Label Text="Email" TextColor="#a1891e" ></Label>
+                <Entry Text="" Placeholder="Email" x:Name="emailEntry" PlaceholderColor="Gray"></Entry>
+
+                <Label Text="Password" TextColor="#a1891e"></Label>
+                <Entry Text="" IsPassword="True" Placeholder="Password" x:Name="passwordEntry" PlaceholderColor="Gray"></Entry>
+
+                <Label Text="Password" TextColor="#a1891e"></Label>
+                <Entry Text="" IsPassword="True" Placeholder="Re-enter Password" x:Name="RepasswordEntry" PlaceholderColor="Gray"></Entry>
+
+                <Button Text="Log In" BackgroundColor="#a1891e" TextColor="White" Clicked="Button_Clicked"></Button>
+
+                <Button Text="Are you a merchant? Register here" TextColor="Gray" HorizontalOptions="Center" BackgroundColor="White" Clicked="Button_Clicked_1"></Button>
+                <Button Text="Already have an account? Click here" TextColor="Gray" HorizontalOptions="Center" BackgroundColor="White" Clicked="Button_Clicked_2"></Button>
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

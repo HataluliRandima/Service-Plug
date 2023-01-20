@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Views.AwaitingPage"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout >
+            <Grid RowDefinitions="Auto,260,Auto,Auto,Auto" RowSpacing="10">
+                <Label Margin="20,0,20,0" Text="Complete Registration" TextColor="#334357" Grid.Row="0" FontSize="32" FontAttributes="Bold" FontFamily="L-Reg5" HorizontalTextAlignment="Center" />
+                <Image Grid.Row="1" Margin="0,30" Source="spLogo.png" Aspect="AspectFit" HeightRequest="180" WidthRequest="80"/>
+                <Label Margin="20,0,20,0" FontFamily="L-Reg5" Text="To gain Access our system, please finish the registration on our web application" LineBreakMode="WordWrap" TextColor="#CD7F32" Grid.Row="2" FontSize="16" HorizontalTextAlignment="Center" />
+                <Button FontFamily="L-Reg5" Margin="20,-60,20,0" Grid.Row="12" Text="Verify" BackgroundColor="#334357" BorderWidth="5" BorderColor="#CD7F32"  CornerRadius="20" Clicked="Button_Clicked"></Button>
+                <Label/>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

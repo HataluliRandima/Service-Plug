@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:microcharts1="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             x:Class="XamarinMobile.Views.StatsPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <microcharts1:ChartView x:Name="lineChart" HeightRequest="500"/>
+                <microcharts1:ChartView x:Name="barChart" HeightRequest="500"/>
+                <microcharts1:ChartView x:Name="donutChart" HeightRequest="500"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

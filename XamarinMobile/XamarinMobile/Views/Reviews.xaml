@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Views.Reviews"
+             xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:fi="clr-namespace:MaterialFonts.Fonts" xmlns:viewModels="clr-namespace:XamarinMobile.Models"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.BindingContext>
+        <viewModels:ReviewsModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid  RowDefinitions="220,40,Auto" RowSpacing="5">
+            <Frame Grid.Row="0" BorderColor="#CD7F32" CornerRadius="20" HasShadow="True" BackgroundColor="#334357" Margin="0,-50,0,0" Padding="10">
+                <Label FontFamily="L-Reg5" Text="Job Reviews" Margin="0,30,0,0" TextColor="#CD7F32" FontSize="32" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+            </Frame>
+
+            <!--<Label Grid.Row="1"> 
+                
+            </Label>-->
+            <ListView x:Name="teste"
+                      HasUnevenRows="True"
+                 ItemTapped="teste_ItemTapped"             
+                  Grid.Row="2">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="20,25,0,0" Spacing="2">
+                                <!--<Label FontFamily="L-Reg5" Text="{Binding JobStatus,StringFormat='Booking Status: {0}'}" FontSize="18" FontAttributes="Bold" TextColor="#CD7F32"/>
+                                <Label FontFamily="L-Reg5" Text="{Binding BookDatetime,StringFormat='Booking Date/Time: {0}'}" FontSize="18" FontAttributes="Bold" TextColor="#CD7F32"/>
+                                <Label FontFamily="L-Reg5" FontAttributes="Bold" FontSize="18" TextColor="#334357">-->
+
+
+
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="Green" Text="{x:Static fi:IconFont.AccountCheck}" FontSize="30" FontFamily="material" />
+                                            <Span Text="  "/>
+                                            <Span FontFamily="L-Reg5" FontSize="20" TextColor="#334357" Text="{Binding UserName, StringFormat='Client Names: {0}'}"/>
+                                            <Span Text=" "/>
+                                            <Span FontFamily="L-Reg5" FontSize="20" TextColor="#334357" Text="{Binding UserSurname}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="LawnGreen" Text="{x:Static fi:IconFont.CheckDecagram}" FontSize="30" FontFamily="material" />
+                                            <Span Text="  "/>
+                                            <Span FontFamily="L-Reg5" Text="{Binding UserEmail, StringFormat='Client Email: {0}'}" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="LawnGreen" Text="{x:Static fi:IconFont.CheckDecagram}" FontSize="30" FontFamily="material" />
+                                            <Span Text="  "/>
+                                            <Span FontFamily="L-Reg5" Text="{Binding ReviewRating, StringFormat='Client Job Rating: {0}'}" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="LawnGreen" Text="{x:Static fi:IconFont.CheckDecagram}" FontSize="30" FontFamily="material" />
+                                            <Span Text="  "/>
+                                            <Span FontFamily="L-Reg5" Text="{Binding ReviewMessage,StringFormat='Job Review Message: {0}'}" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <!--<Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span TextColor="Green" Text="{x:Static fi:IconFont.LockClock}" FontSize="30" FontFamily="material" />
+                                                <Span Text="  "/>
+                                                <Span FontFamily="L-Reg5" Text="{Binding BookDatetime,StringFormat='Booking Date/Time: {0}'}" FontSize="20" TextColor="#334357" FontAttributes="Bold" />
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>-->
+
+
+                            </StackLayout>
+                        </ViewCell>
+
+                        <!--<TextCell Text="{Binding UserName}"></TextCell>-->
+                        <!--<ViewCell>
+                        <StackLayout>
+                            <Label Text="" x:Name="UsernameLabel"  />
+                            <Label Text="{Binding UserName}" />                  
+                            -->
+                        <!--<Label Text="{Binding BookDatetime}"/>-->
+                        <!--
+                        </StackLayout>
+                    </ViewCell>-->
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+
+        <!--<Label x:Name="status"/>
+        <Label x:Name="usname"/>
+        <Label Text="Active Jobs" TextColor="#334357" FontSize="24" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+        <ListView ItemsSource="{Binding GetJobs}"
+                  HasUnevenRows="True"
+                  ItemTapped="ListView_ItemTapped"
+                  >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout>
+                            <Label Text="" x:Name="UsernameLabel"  />
+                            <Label Text="{Binding JobStatus}" />
+                         <Label Text="{Binding UserId}"/>
+                            <Label Text="{Binding MerchId}"/>
+                            -->
+        <!--<Label Text="{Binding BookDatetime}"/>-->
+        <!--
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+    </ContentPage.Content>
+</ContentPage>

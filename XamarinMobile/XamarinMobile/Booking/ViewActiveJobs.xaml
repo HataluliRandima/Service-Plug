@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:viewModels="clr-namespace:XamarinMobile.ViewModels"
+             x:Class="XamarinMobile.Booking.ViewActiveJobs"
+             xmlns:fi="clr-namespace:MaterialFonts.Fonts"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.BindingContext>
+        <viewModels:ActiveJobsViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Content>
+        <Grid RowDefinitions="220,40,Auto" RowSpacing="5">
+            <Frame Grid.Row="0" BackgroundColor="#334357" CornerRadius="20" BorderColor="#CD7F32" Margin="0,-20,0,0">
+
+                <Label FontFamily="L-Reg5" Text="Client Active Jobs" TextColor="#CD7F32" FontSize="30" VerticalOptions="Center" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+            </Frame>
+            <Button Grid.Row="1"
+                    Command="{Binding GetActiveJobsCommand}"
+                    Text="Get All Active Jobs"
+                    FontAttributes="Bold"
+                    FontSize="15.5"
+                    WidthRequest="180"
+                    FontFamily="L-Reg5"
+                    BackgroundColor="White"
+                    TextColor="#334357"
+                    Margin="20,0,20,0"
+                    />
+        <ListView ItemsSource="{Binding GetRequests1}"
+                  HasUnevenRows="True"
+                  ItemTapped="ListView_ItemTapped"
+                  Grid.Row="2"
+                  >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="15,25,0,0" Spacing="2">
+                            <!--<Label Text="{Binding BookId}"/>-->
+
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="LawnGreen" Text="{x:Static fi:IconFont.CheckDecagram}" FontSize="30" FontFamily="material" />
+                                            <Span Text="  "/>
+                                            <Span FontFamily="L-Reg5" Text="{Binding BookStatus, StringFormat='Booking Status: {0}'}" FontSize="20" TextColor="#CD7F32" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="Green" Text="{x:Static fi:IconFont.CalendarClock}" FontSize="30" FontFamily="material" />
+                                            <Span Text="  "/>
+                                            <Span FontFamily="L-Reg5" Text="{Binding BookDate,StringFormat='Booking Date: {0:dd.MM.yyyy}'}" FontSize="20" TextColor="#334357" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+    
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span TextColor="Green" Text="{x:Static fi:IconFont.LockClock}" FontSize="30" FontFamily="material" />
+                                            <Span Text="  "/>
+                                            <Span FontFamily="L-Reg5" Text="{Binding BookTime,StringFormat='Booking Time: {0}'}" FontSize="20" TextColor="#334357" FontAttributes="Bold" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+
+                                <!--<Label FontFamily="L-Reg5" Text="{Binding BookStatus,StringFormat='Booking Status: {0}'}" FontSize="18" TextColor="#CD7F32" FontAttributes="Bold" />-->
+                            <!--<Label Text="{Binding UserId}"/>
+                            <Label Text="{Binding MerchId}"/>-->
+                                <!--<Label FontFamily="L-Reg5" Text="{Binding BookDatetime,StringFormat='Booking Date/Time: {0}'}" FontSize="18" TextColor="#334357" FontAttributes="Bold"/>-->
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

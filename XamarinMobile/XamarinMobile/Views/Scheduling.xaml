@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:pv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView" 
+             xmlns:extensions="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="XamarinMobile.Views.Scheduling"
+             Title="Scheduling"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <Grid BackgroundColor="#F3F5F9" RowSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="180"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid BackgroundColor="#334357" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <StackLayout Margin="0,-40,0,0" HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label TextColor="#CD7F32" FontSize="40" HorizontalTextAlignment="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <FormattedString.Spans>
+                                    <Span Text=" My Schedule" FontAttributes="Bold" FontSize="40"/>
+                                </FormattedString.Spans>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label Text="Merchant Name" TextColor="White" FontSize="18" HorizontalTextAlignment="Center" FontAttributes="Bold"/>
+                </StackLayout>
+            </Grid>
+            <pv:PancakeView Grid.Row ="1" HeightRequest="80" Margin="0,-40,0,0" HorizontalOptions="Center">
+                <Grid ColumnSpacing="0" HorizontalOptions="FillAndExpand">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <BoxView Grid.RowSpan="2" WidthRequest="80" Background="#CD7F32"/>
+                    <BoxView Grid.Column="1" Grid.RowSpan="2" WidthRequest="80" BackgroundColor="White"/>
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Label Text="11" TextColor="#334357" FontSize="36" HorizontalOptions="Center"/>
+                        <Label Text="September" TextColor="#334357" FontSize="12" HorizontalOptions="Center" Margin="0,-10,0,0"/>
+                    </StackLayout>
+                    <StackLayout Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Label Text="15" TextColor="#455399" FontSize="36" HorizontalOptions="Center"/>
+                        <Label Text="September" TextColor="#455399" FontSize="12" HorizontalOptions="Center" Margin="0,-10,0,0"/>
+                    </StackLayout>
+                    <BoxView Grid.Row="1" Grid.ColumnSpan="2" WidthRequest="73" HeightRequest="1" BackgroundColor="#F1F3F7" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+                    <pv:PancakeView Grid.Row="1" HeightRequest="7" WidthRequest="7" CornerRadius="3.5" HorizontalOptions="Center" Margin="7"/>
+                    <pv:PancakeView Grid.Row="1" Grid.Column="1" HeightRequest="7" WidthRequest="7" CornerRadius="3.5" HorizontalOptions="Center" Margin="7"/>
+                </Grid>
+            </pv:PancakeView>
+    <CollectionView Grid.Row="2" Margin="25" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                    SelectionMode="None" ItemsSource="{Binding myOrders}">
+        <CollectionView.Header>
+            <Label Text="my Jobs" HorizontalOptions="CenterAndExpand" TextColor="#334357" FontSize="18"/>
+        </CollectionView.Header>
+        <CollectionView.ItemsLayout>
+            <LinearItemsLayout Orientation="Vertical" ItemSpacing="20"/>
+        </CollectionView.ItemsLayout>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <pv:PancakeView BackgroundColor="White" VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+                    <Grid VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <BoxView Background="{Binding Color}" WidthRequest="3" HorizontalOptions="Start" VerticalOptions="FillAndExpand"/>
+                        <extensions:Expander Grid.Column="1">
+                            <extensions:Expander.Header>
+                                <Grid HorizontalOptions="FillAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="3.5"/>
+                                    </Grid.ColumnDefinitions>
+                                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                                        <Label Text="{Binding Date, StringFormat='{0:dd}'}" TextColor="gray" FontSize="27" 
+                                           HorizontalOptions="Center"/>
+                                        <Label Text="{Binding Date, StringFormat='{0:MMMM}'}" TextColor="Gray" FontSize="10" 
+                                           HorizontalOptions="Center"/>
+                                    </StackLayout>
+                                    <BoxView Grid.Column="1" Background="#F2F4F8" WidthRequest="1" HorizontalOptions="Start"
+                                         VerticalOptions="FillAndExpand"/>
+                                    <StackLayout Grid.Column="2" HorizontalOptions="Start" VerticalOptions="Center" Margin="20">
+                                        <Label Text="{Binding JobType}" TextColor="Gray" FontSize="15"/>
+                                        <Label Text="{Binding Duration}" TextColor="#2F3246" FontSize="12" Margin="0,-10,0,0"/>
+                                    </StackLayout>
+                                </Grid>
+                            </extensions:Expander.Header>
+                        </extensions:Expander>
+                    </Grid>
+                </pv:PancakeView>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

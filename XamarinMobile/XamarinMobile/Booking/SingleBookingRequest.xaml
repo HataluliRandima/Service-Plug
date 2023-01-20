@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Booking.SingleBookingRequest"
+             xmlns:local="clr-namespace:XamarinMobile"
+             BackgroundImageSource="PeachBlueBackground"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+
+        <StackLayout>
+        <Grid RowSpacing="25" RowDefinitions="Auto,Auto,Auto,Auto">
+            <StackLayout Grid.Row="4">
+                <Label Text="Single Booking Request"
+                      FontSize="25"
+                      TextColor="PeachPuff"
+                       HorizontalTextAlignment="Center"
+                       FontAttributes="Bold"/>
+                <Frame OutlineColor="Black"
+                       BackgroundColor="Transparent"
+                       Margin="15"
+                       Padding="0"
+                       CornerRadius="50">
+                    <Frame OutlineColor="Black"
+                       BackgroundColor="Transparent"
+                       Margin="1"
+                       Padding="25,0,25,0"
+                       HeightRequest="60"
+                       CornerRadius="50">
+                        <local:CustomEntry TextColor="#a1892e"
+                              FontSize="18"
+                              Placeholder="Request Date:"
+                              PlaceholderColor="White"/>
+                    </Frame>
+                </Frame>
+
+                <Frame OutlineColor="Black"
+                       BackgroundColor="Transparent"
+                       Margin="15"
+                       Padding="0"
+                       CornerRadius="50">
+
+                    <Frame OutlineColor="Black"
+                       BackgroundColor="Transparent"
+                       Margin="1"
+                       Padding="25,0,25,0"
+                       HeightRequest="60"
+                       CornerRadius="50">
+                        <local:CustomEntry TextColor="White"
+                              FontSize="18"
+                              Placeholder="Scheduled Day:"
+                              PlaceholderColor="White"
+                               IsPassword="True"
+                               x:Name="EntryPassword"/>
+                    </Frame>
+                </Frame>
+
+                <Frame OutlineColor="Black"
+                       BackgroundColor="Transparent"
+                       Margin="15"
+                       Padding="0"
+                       CornerRadius="50">
+
+                    <Frame OutlineColor="Black"
+                       BackgroundColor="Transparent"
+                       Margin="1"
+                       Padding="25,0,25,0"
+                       HeightRequest="60"
+                       CornerRadius="50">
+                        <local:CustomEntry TextColor="White"
+                              FontSize="18"
+                              Placeholder="Start Time:"
+                              PlaceholderColor="White"
+                               IsPassword="True"
+                               x:Name="StartTime"/>
+                    </Frame>
+                </Frame>
+
+                <Frame OutlineColor="Black"
+                       BackgroundColor="Transparent"
+                       Margin="15"
+                       Padding="0"
+                       CornerRadius="50">
+
+                    <Frame OutlineColor="Black"
+                       BackgroundColor="Transparent"
+                       Margin="1"
+                       Padding="25,0,25,0"
+                       HeightRequest="60"
+                       CornerRadius="50">
+                        <local:CustomEntry TextColor="White"
+                              FontSize="18"
+                              Placeholder="Client Address:"
+                              PlaceholderColor="White"
+                               IsPassword="True"
+                               x:Name="Address"/>
+                    </Frame>
+                </Frame>
+
+                <!--<RelativeLayout Padding="25">
+                    --><!--<CheckBox Color="White"
+                              IsChecked="False"
+                              CheckedChanged="CheckBox_CheckedChanged"
+                              x:Name="CheckBox"
+                              Margin="15,0,0,0"/>
+                    <Label Text="Show Password"
+                           TextColor="White"
+                           FontSize="18"
+                           RelativeLayout.XConstraint="50"
+                           RelativeLayout.YConstraint="3"/>
+                    <Button x:Name="ForgotPasswordButton"
+                            Text="Forgot Password"
+                            TextColor="White"
+                            FontSize="18"
+                            BackgroundColor="Transparent"
+                            RelativeLayout.XConstraint="205"
+                            RelativeLayout.YConstraint="-8"
+                            Clicked="ForgotPasswordButton_Clicked"
+                            TextTransform="None"/>--><!--
+                </RelativeLayout>-->
+                <Button x:Name="SignUpButton"
+                        Text="Accept"
+                        TextColor="PeachPuff"
+                        BorderWidth="2"
+                        BorderColor="PeachPuff"
+                        Margin="10,0,10,0"
+                        FontSize="18"
+                        Clicked="SignUpButton_Clicked"
+                        HeightRequest="60"
+                        CornerRadius="60"
+                        BackgroundColor="#334357"/>
+                <Button x:Name="LogInButton"
+                        Text="Decline"
+                        TextColor="Red"
+                        BorderWidth="2"
+                        BorderColor="Red"
+                        BackgroundColor="#334357"
+                        Margin="10,0,10,0"
+                        FontSize="18"
+                        HeightRequest="60"
+                        CornerRadius="50"
+                        Clicked="LogInButton_Clicked"/>
+            </StackLayout>
+        </Grid>
+        </StackLayout>
+ 
+</ContentPage>

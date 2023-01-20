@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.EditProfile"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <Grid RowDefinitions="220,Auto,120" RowSpacing="5">
+            <Frame Grid.Row="0" BackgroundColor="#334357" CornerRadius="20" BorderColor="#CD7F32" Margin="0,-20,0,0">
+                <Label FontFamily="L-Reg5" Text="Edit Profile" TextColor="#CD7F32" FontSize="30" VerticalOptions="Center" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+            </Frame>
+            <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto" Grid.Row="1" RowSpacing="3" Margin="30,0,30,0">
+                
+            <Entry FontFamily="L-Reg5" Grid.Row="0" IsEnabled="False" x:Name="txtName" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+            <Entry FontFamily="L-Reg5" Grid.Row="1" IsEnabled="False" x:Name="txtSurname" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+            <Entry FontFamily="L-Reg5" Grid.Row="2" x:Name="txtMerchAddress" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+            <Entry FontFamily="L-Reg5" Grid.Row="3" x:Name="txtMerchProvince" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+            <Entry FontFamily="L-Reg5" Grid.Row="4" x:Name="txtMerchCity" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+            <Entry FontFamily="L-Reg5" Grid.Row="5" x:Name="txtContactDetails" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+            <Entry FontFamily="L-Reg5" Grid.Row="6" IsEnabled="False" x:Name="txtEmail" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+            <Entry FontFamily="L-Reg5" Grid.Row="7" IsEnabled="False" x:Name="txtMerchType" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+            </Grid>
+
+            <Button Grid.Row="2" Padding="1" Clicked="Button_Clicked" HeightRequest="120" FontAttributes="Bold" Margin="30,0,35,70" BorderWidth="3" BorderColor="#CD7F32" CornerRadius="20" Text="Submit Changes"></Button>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

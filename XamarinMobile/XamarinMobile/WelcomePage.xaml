@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.WelcomePage"
+            
+             Title="ClientLandingPage">
+    <StackLayout>
+        <Label Text="Discover merchants" TextColor="#334357" FontSize="24" FontAttributes="Bold" Margin="15"></Label>
+
+        <CarouselView ItemsSource="{Binding places}">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Frame HeightRequest="280" 
+               WidthRequest="180" 
+               BackgroundColor="White" 
+               HasShadow="True" 
+               Margin="15"
+               HorizontalOptions="CenterAndExpand"
+               Padding="3"
+               CornerRadius="10"
+              VerticalOptions="CenterAndExpand">
+            <Grid>
+                <StackLayout BackgroundColor="Black">
+                <Image Source="https://images.pexels.com/photos/12045663/pexels-photo-12045663.jpeg" 
+                       Aspect="AspectFill" Opacity="0.8"
+                       VerticalOptions="FillAndExpand"/>
+
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Plumber" 
+                           TextColor="White" 
+                           FontSize="18" 
+                           Margin="15"/>
+                </StackLayout>
+            </Grid>
+
+        </Frame>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+            
+        </CarouselView>
+
+    </StackLayout>
+    
+</ContentPage>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Views.RequestsDetail"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White"
+             >
+    <ContentPage.Content>
+        <Grid Grid.Row="0" RowDefinitions="200,Auto" RowSpacing="1">
+            <Frame Grid.Row="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  BackgroundColor="#334357" WidthRequest="5" CornerRadius="20" BorderColor="#CD7F32" Margin="0,-50,0,0">
+                <Label Grid.Row="0" 
+                           Grid.Column="0" 
+                           Text="Request Detail"
+                           TextColor="#CD7F32"
+                           FontFamily="L-Reg5"     
+                           FontSize="36" 
+                           FontAttributes="Bold"
+                           HorizontalTextAlignment="Center"
+                           Padding="0,110,0,0"/>
+            </Frame>
+            <Grid Grid.Row="1" RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*">
+
+                <Label Grid.Row="0" Grid.Column="0" FontAttributes="Bold" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" Padding="10">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Booking Status: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="mBookStatus" TextColor="#CD7F32"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label Grid.Row="1" Grid.Column="0" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" Padding="10" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Booking Date: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17"  Text="{Binding StringFormat='{0:dd.MM.yyyy}'}" x:Name="mBookDate" TextColor="#CD7F32"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" Padding="10" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Booking Time: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17"  Text="{Binding StringFormat='{0:dd.MM.yyyy}'}" x:Name="mBookTime" TextColor="#CD7F32"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label Grid.Row="3" Grid.Column="0" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" Padding="10" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Job Specifications: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="mBookMessage" TextColor="#CD7F32"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" Padding="10" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Client Names: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="userName11" TextColor="#CD7F32"/>
+                            <Span  FontSize="17" Text=" " TextColor="#CD7F32"/>
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="usersurname11" TextColor="#CD7F32"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label Grid.Row="5" Grid.Column="0" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" Padding="10" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Client Address: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="userAdd" TextColor="#CD7F32"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label Grid.Row="6" Grid.Column="0" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" Padding="10" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Contact Details: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="contactDetails" TextColor="#CD7F32"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Label Grid.Row="7" Grid.Column="0" HorizontalTextAlignment="Center" Grid.ColumnSpan="3" Padding="10" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span FontFamily="L-Reg5" FontSize="17" Text="Client Email: " FontAttributes="Bold" />
+                            <Span FontFamily="L-Reg5" FontSize="17" x:Name="userEmailAdd" TextColor="#CD7F32"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <Button x:Name="AcceptBooking"
+                            Grid.Row="8"
+                            Grid.Column="0"
+                        Text="Accept Booking"
+                        TextColor="#CD7F32"
+                        BorderWidth="2"
+                        BorderColor="#CD7F32"
+                        FontSize="22"
+                        FontFamily="L-Reg5"
+                        Clicked="AcceptBooking_Clicked"
+                        HeightRequest="0"
+                        FontAttributes="Bold"
+                        CornerRadius="20"
+                        WidthRequest="200"
+                        HorizontalOptions="CenterAndExpand"
+                        BackgroundColor="#334357"
+                        Margin="20,0,-30,0"
+                            />
+                <Button x:Name="DeclineBooking"
+                            Grid.Row="8"
+                            Grid.Column="1"
+                        Text="Decline Booking"
+                        FontFamily="L-Reg5"
+                        TextColor="#334357"
+                        BorderWidth="2"
+                        BorderColor="#CD7F32"
+                        FontSize="22"
+                        BackgroundColor="White"
+                        Clicked="DeclineBooking_Clicked"
+                        HeightRequest="80"
+                        FontAttributes="Bold"
+                        CornerRadius="20"
+                        WidthRequest="200"
+                        HorizontalOptions="CenterAndExpand"
+                        
+                        Margin="110,0,-110,0"
+                />
+            </Grid>
+
+        </Grid>
+
+
+        <!--<Frame Grid.Row="15"  BorderColor="#334357"  BackgroundColor="WhiteSmoke" CornerRadius="50"  HeightRequest="100">
+                
+                
+                
+                
+            </Frame>-->
+
+            <!--<Label x:Name="muserID"  HorizontalTextAlignment="Center"/>-->
+            <!--<Label x:Name="mMerchId" HorizontalTextAlignment="Center"/>-->
+            <!--<Label x:Name="mBookStatus" HorizontalTextAlignment="Center"/>-->
+            <!--<Label x:Name="mBookDatetime" HorizontalTextAlignment="Center"/>-->
+            <!--<Label x:Name="mBookId" HorizontalTextAlignment="Center"/>-->
+            <!--<Label x:Name="userName11" HorizontalTextAlignment="Center"/>-->
+            <!--<Label x:Name="usersurname11" HorizontalTextAlignment="Center"/>-->
+            
+        
+    </ContentPage.Content>
+</ContentPage>

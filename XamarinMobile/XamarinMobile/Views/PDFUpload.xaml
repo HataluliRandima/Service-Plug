@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Views.PDFUpload"
+             BackgroundColor="White"
+             Title="PDFUpload"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             >
+    <ContentPage.Content>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" RowSpacing="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="160"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Frame Grid.Row="0" BackgroundColor="#334357" CornerRadius="20" BorderColor="#CD7F32" Margin="0,-50,0,0">
+
+                <Label Text="Merchant Verification" FontFamily="L-Reg5" TextColor="#CD7F32" FontSize="30" VerticalOptions="Center" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
+            </Frame>
+            
+            <Entry FontFamily="L-Reg5" Grid.Row="1" Placeholder="Enter Your Registration ID number:" x:Name="IDNumber" Text="{Binding MerchEmail}" Margin="20,50,20,0"  PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+            <Entry FontFamily="L-Reg5" Grid.Row="2" Placeholder="Enter Your Business Tax Number:" x:Name="emailPlaceholder" Text="{Binding MerchEmail}" Margin="20,50,20,0"  PlaceholderColor="#CD7F32" TextColor="#334357"></Entry>
+
+
+            <Button Grid.Row="4" Text="Click here to upload" BackgroundColor="#334357" FontAttributes="Bold" CornerRadius="20" BorderColor="#CD7F32" BorderWidth="3" Margin="20,350,20,0" Clicked="Upload"></Button>
+           
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>

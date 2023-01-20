@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinMobile.Profile"
+             Shell.NavBarIsVisible="False"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Plumber2" Aspect="AspectFill" HeightRequest="380"/>
+            <Frame  CornerRadius="40" Margin="0,-45,0,-60"  BorderColor="#CD7F32"  HasShadow="True" VerticalOptions="FillAndExpand">
+                <ScrollView>
+                    
+                <Grid RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto" ColumnDefinitions="*,*,*">
+                    <Label Grid.Row="1" 
+                           Grid.Column="0" 
+                           Grid.ColumnSpan="3" 
+                           TextColor="#334357"
+                           FontSize="40" 
+                           FontFamily="L-Reg5"
+                           FontAttributes="Bold"                
+                           Padding="20,10,0,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span x:Name="txtName" />
+                                <Span x:Name="txtSurname"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <Label Grid.Row="2" 
+                           Grid.Column="0" 
+                           Grid.ColumnSpan="2" 
+                           Padding="20,7,0,0" 
+                           TextColor="DarkGray">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span FontFamily="L-Reg5" FontSize="25" TextColor="#CD7F32" x:Name="txtMerchProvince" FontAttributes="Bold" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="3" Padding="20,0,0,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span FontSize="18" FontFamily="L-Reg5" Text="Email: " TextColor="#334357" FontAttributes="Bold" />
+                                <Span FontSize="18" FontFamily="L-Reg5" TextColor="#CD7F32" x:Name="txtEmail" FontAttributes="Bold" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Padding="20,0,0,0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span FontSize="18" FontFamily="L-Reg5" TextColor="#334357" Text="Merchant type: " FontAttributes="Bold" />
+                                <Span FontSize="18" FontFamily="L-Reg5" x:Name="txtMerchType" TextColor="#CD7F32"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <Label Grid.Row="5" 
+                           Grid.Column="0" 
+                           Grid.ColumnSpan="2" 
+                           FontSize="20"
+                           Padding="20,0,0,0" 
+                           TextColor="DarkGray">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span FontSize="18" FontFamily="L-Reg5" Text="Address: " TextColor="#334357" FontAttributes="Bold" />
+                                <Span FontSize="18" FontFamily="L-Reg5" TextColor="#CD7F32" x:Name="txtMerchAddress" FontAttributes="Bold" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                    <Label Grid.Row="6" 
+                           Grid.Column="0" 
+                           Grid.ColumnSpan="2" 
+                           FontSize="20"
+                           Padding="20,0,0,0" 
+                           TextColor="DarkGray">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span FontSize="18" FontFamily="L-Reg5" Text="Contact Details: " TextColor="#334357" FontAttributes="Bold" />
+                                <Span FontSize="18" FontFamily="L-Reg5" TextColor="#CD7F32" x:Name="txtContactDetails" FontAttributes="Bold" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+
+                    <Label Grid.Row="7" 
+                           FontSize="18"
+                           Grid.Column="0" 
+                           FontFamily="L-Reg5"
+                           Text="Job Requests"  
+                           TextColor="#334357" 
+                           FontAttributes="Bold"
+                           TextDecorations="Underline"
+                           HorizontalTextAlignment="Center" 
+                           Padding="8,15,0,0"/>
+                    
+                    <Label Grid.Row="7" 
+                           Grid.Column="1"
+                           FontSize="18"
+                           FontFamily="L-Reg5"
+                           Text="Total Active Jobs"  
+                           TextColor="#334357" 
+                           FontAttributes="Bold"
+                           TextDecorations="Underline"
+                           HorizontalTextAlignment="Center" 
+                           Padding="0,15,0,0"/>
+                    
+                    <Label Grid.Row="7" 
+                           Grid.Column="2"
+                           FontSize="18"
+                           Text="Jobs Completed"  
+                           FontFamily="L-Reg5"
+                           TextColor="#334357"
+                           FontAttributes="Bold"
+                           TextDecorations="Underline"
+                           HorizontalTextAlignment="Center" 
+                           Padding="0,15,0,0"/>
+
+                    <Label FontSize="18" x:Name="txttotalrequests" FontFamily="L-Reg5" Grid.Row="8" TextColor="#CD7F32" Grid.Column="0"   FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    <Label FontSize="18" x:Name="txttotalactiverequest" FontFamily="L-Reg5" Grid.Row="8" TextColor="#CD7F32" Grid.Column="1" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+                    <Label FontSize="18" x:Name="txtgetjobsdone" FontFamily="L-Reg5" Grid.Row="8" TextColor="#CD7F32" Grid.Column="2"  FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+
+                    <Button Grid.Row="9" 
+                            Grid.Column="0" 
+                            HeightRequest="50"
+                            Grid.ColumnSpan="3" 
+                            Text="Edit Profile" 
+                            FontFamily="L-Reg5"
+                            TextColor="WhiteSmoke"
+                            FontAttributes="Bold" 
+                            VerticalOptions="End" 
+                            BackgroundColor="#334357" 
+                            Clicked="Edit_Button"
+                            BorderWidth="5"
+                            CornerRadius="20"
+                            BorderColor="#CD7F32" 
+                            Margin="0,30,0,60"
+                            />
+                </Grid>
+                </ScrollView>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

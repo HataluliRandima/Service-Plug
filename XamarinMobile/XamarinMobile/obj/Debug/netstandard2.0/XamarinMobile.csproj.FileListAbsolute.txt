@@ -1,0 +1,531 @@
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\Masakona\FYP\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MerchRegister.xaml.g.cs
+C:\Users\Masakona\Apps\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\PDFUpload.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MerchRegister.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\PDFUpload.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\Masakona\OneDrive\Desktop\IFM\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WaitingPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ConfirmBooking.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MerchRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\PDFUpload.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WaitingPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\LogOut.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Reports.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ViewBookingRequests.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHome.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeFlyout.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHome.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeDetail.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeFlyout.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\LogOut.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Reports.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ViewBookingRequests.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ConfirmBooking.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MerchRegister.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\PDFUpload.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WaitingPage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\OneDrive\Desktop\xamarin\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHome.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeFlyout.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\LogOut.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Reports.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ConfirmBooking.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysis.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysisDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysisFlyout.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MerchRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\PDFUpload.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Ratings.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsFlyout.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WaitingPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CopyComplete
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\EditProfile.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\ViewActiveJobs.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\ViewBookingRequests.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Dashboard.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\Ionic Mobile\Xamarin\New folder\Team10\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\Quotation.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\Quotation.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\SingleBookingRequest.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\ViewActiveJobs.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Control\FrameView.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Control\ImageCircle.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\EditProfile.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHome.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeFlyout.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ImageCircle.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\LogOut.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Reports.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ConfirmBooking.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\FullPageImage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysis.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysisDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysisFlyout.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MerchRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MyListPageDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\PDFUpload.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Ratings.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsFlyout.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Requests.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RequestsDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ViewBookingRequests.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WaitingPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CopyComplete
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\Quotation.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\SingleBookingRequest.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\ViewActiveJobs.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Control\FrameView.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Control\ImageCircle.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\EditProfile.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHome.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeDetail.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeFlyout.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ImageCircle.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\LogOut.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Reports.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ConfirmBooking.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\FullPageImage.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysis.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysisDetail.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysisFlyout.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MerchRegister.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MyListPageDetail.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\PDFUpload.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Ratings.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsDetail.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsFlyout.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Requests.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RequestsDetail.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ViewBookingRequests.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WaitingPage.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CopyComplete
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\Downloads\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\Quotation.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\SingleBookingRequest.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\ViewActiveJobs.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Control\FrameView.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Control\ImageCircle.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\EditProfile.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHome.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeFlyout.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ImageCircle.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\LogOut.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Reports.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ConfirmBooking.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\FullPageImage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysis.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysisDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysisFlyout.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MerchRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MyListPageDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\PDFUpload.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Ratings.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsFlyout.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Requests.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RequestsDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Scheduling.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ViewBookingRequests.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WaitingPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CopyComplete
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ActiveJobDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ViewJobsStarted.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ViewActiveJobDetail.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\Quotation.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\SingleBookingRequest.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\ViewActiveJobs.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Control\FrameView.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Control\ImageCircle.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\EditProfile.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHome.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeDetail.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeFlyout.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ImageCircle.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\LogOut.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Reports.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ActiveJobDetail.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ConfirmBooking.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\FullPageImage.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysis.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysisDetail.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\JobAnalysisFlyout.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MerchRegister.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MyListPageDetail.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\PDFUpload.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Ratings.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsDetail.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsFlyout.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Requests.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RequestsDetail.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Scheduling.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ViewActiveJobDetail.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ViewBookingRequests.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ViewJobsStarted.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WaitingPage.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CopyComplete
+C:\Users\Masakona\Music\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.deps.json
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.pdb
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\bin\Debug\netstandard2.0\Mono.Android.xml
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.AssemblyReference.cache
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\Quotation.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\SingleBookingRequest.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Booking\ViewActiveJobs.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Control\FrameView.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Control\ImageCircle.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\EditProfile.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHome.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\FlyoutHomeFlyout.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ForgotPassword.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ImageCircle.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\LogOut.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\MerchantRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Profile.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Reports.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ActiveJobDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ClientRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ConfirmBooking.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\FullPageImage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\LoginPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MerchRegister.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\MyListPageDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\PDFUpload.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Ratings.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RatingsFlyout.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Requests.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\RequestsDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Reviews.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ReviewsDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Scheduling.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\Scheduling2.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\StatsPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ViewActiveJobDetail.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ViewBookingRequests.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\ViewJobsStarted.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WaitingPage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\WelcomePage.xaml.g.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfoInputs.cache
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.AssemblyInfo.cs
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CoreCompileInputs.cache
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.csproj.CopyComplete
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\refint\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\XamarinMobile.pdb
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\ref\XamarinMobile.dll
+C:\Users\akona\OneDrive\Desktop\XamarinBetaa_2\XamarinBetaa\XamarinBetaa\XamarinMobile\XamarinMobile\obj\Debug\netstandard2.0\Views\AwaitingPage.xaml.g.cs
