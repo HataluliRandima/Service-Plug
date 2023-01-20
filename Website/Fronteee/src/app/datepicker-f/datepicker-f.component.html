@@ -1,0 +1,222 @@
+ <app-header-f></app-header-f>
+ <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <div id="booking" class="section">
+    <div class="section-center">
+  
+
+ <div class="container">
+    <h1>Client Details</h1>
+    <hr>
+   <form action="/action_page.php">
+    <div *ngFor="let a of mercs" >
+     <div  class="row">
+       <div class="col-25">
+        <i class='fas fa-home' style='font-size:48px;color:black'></i>
+         <label for="fname">Address Name</label>
+       </div>
+       <div class="col-50">
+        <p> Address : {{a.userProvince}}  {{a.userCity}}</p>
+        <p>{{a.userName}}</p>
+        <p>{{a.userSurname}}</p>
+         <!-- <input type="text" id="fname" name="firstname" placeholder="Your name.."> -->
+       </div>
+     </div>
+     <div class="row">
+       <div class="col-25">
+        <i class='fas fa-phone-square' style='font-size:48px;color:black'></i>
+         <label for="lname">Contact Details</label>
+       </div>
+       <div class="col-50">
+        <p> {{a.userContactdetails}} </p>
+         <!-- <input type="text" id="lname" name="lastname" placeholder="Your last name.."> -->
+       </div>
+     </div>
+     <!-- <div class="row">
+       <div class="col-25">
+         <label for="country">Country</label>
+       </div>
+       <div class="col-50">
+         <select id="country" name="country">
+           <option value="australia">Australia</option>
+           <option value="canada">Canada</option>
+           <option value="usa">USA</option>
+         </select>
+       </div>
+     </div> -->
+
+
+
+     <!-- <div class="row">
+       <div class="col-25">
+         <label for="subject">Subject</label>
+       </div>
+       <div class="col-75">
+         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+       </div>
+     </div>
+     <div class="row">
+       <input type="submit" value="Submit">
+     </div> -->
+    </div>
+   </form>
+ </div> 
+
+ 
+<hr>
+   
+   
+  <!--Another contatiner-->
+        <div class="container">
+            <h1>Booking Review</h1>
+       <hr>
+            <div class="row">
+               
+                <div class="booking-form">
+                    <div class="form-header">
+                        <h1 style="font-family: Oswald; color: white;">Make your reservation</h1>
+                        <span style="font-family: Oswald; color: white;">Set the date of the
+                            service..</span>
+                    </div>
+                    <form [formGroup]="addUserForm" (ngSubmit)="saveUserTyped()">
+
+                        <!-- <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="datetime-local" required>
+                                    <span class="form-label"style="font-family: Oswald; color: white;">Service In</span>
+                                  
+                                </div>
+                            </div>
+                             <p>{{aa}}</p>
+                        </div> -->
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                            <mat-form-field class="form-control" appearance="fill">
+    
+                                <mat-label style="font-family: Oswald; color: white;">SERVICE IN</mat-label>
+                                
+                                <input matInput [matDatepicker]="picker"  min="{{currentDate | date:'yyyy-MM-dd'}}" [(ngModel)]="selectedMatDate" style="font-family: Oswald; color: white;"
+                                formControlName="data"
+                                >
+                                 
+                               
+                                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                <mat-datepicker #picker></mat-datepicker>
+                              </mat-form-field>
+                              </div>
+                              </div>
+
+                              <div class="col-md-6">
+                                <div class="form-group">
+                                  <!-- [(ngModel)]="mins"  -->
+                                    <input class="form-control" type="time" step="1" name="ordinary" [min]="mins " max="{{max}}" 
+                                      formControlName="timee" required
+                                    >
+                                    <span class="form-label"style="font-family: Oswald; color: white;">Time In</span>
+                                </div>
+                            </div>
+
+                        </div>
+                  
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="email" placeholder="Enter your Email">
+                                    <span class="form-label" style="font-family: Oswald; color: white;">Email</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="form-control" type="tel" placeholder="Enter your alternative Phone"> <span
+                                        class="form-label" style="font-family: Oswald; color: white;">Phone</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <h1 style="font-family: Oswald; color: white; font-size: 20px;">Type Of Service In Details</h1>
+                                   <textarea class="textArea" placeholder="Describe"
+                                    formControlName="infoo"
+                                   ></textarea>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-btn">
+                            <button class="submit-btn" style="font-family: Oswald; color: white;"  (click)="opensweet()">Book Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+<hr>
+        <!--Another conatiner here-->
+        <div class="container">
+            <h1>Merchant Details</h1>
+            <hr>
+           <form action="/action_page.php">
+             <div class="row">
+               <div class="col-25">
+                <i class='fas fa-user-cog' style='font-size:48px;color:black'></i>
+               </div>
+               <div class="col-75">
+                <p>{{merch}}  {{aa}}</p>
+                 <!-- <input type="text" id="fname" name="firstname" placeholder="Your name.."> -->
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-25">
+                 <label for="lname">Last Name</label>
+               </div>
+               <div class="col-75">
+                 <!-- <input type="text" id="lname" name="lastname" placeholder="Your last name.."> -->
+                 <p>{{aa}}</p>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-25">
+                <i class='fas fa-envelope-square' style='font-size:48px;color:black'></i>
+               </div>
+               <div class="col-75">
+                <p>{{bb}}</p>
+                 <!-- <select id="country" name="country">
+                   <option value="australia">Australia</option>
+                   <option value="canada">Canada</option>
+                   <option value="usa">USA</option>
+                 </select> -->
+               </div>
+             </div>
+             <!-- <div class="row">
+               <div class="col-25">
+                 <label for="subject">Subject</label>
+               </div>
+               <div class="col-75">
+                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+               </div>
+             </div>
+             <div class="row">
+               <input type="submit" value="Submit">
+             </div> -->
+             <p>{{cc}}</p>
+             <div class="row">
+                <div class="col-25">
+              <i class='fas fa-phone-square' style='font-size:48px;color:black'></i>  
+                
+            </div>
+            <div class="col-75">
+              <p>{{tt}}</p>  
+              <p>{{cc}}</p>
+            </div>
+            </div>
+            <i class='fas fa-user-cog' style='font-size:48px;color:red'></i>
+
+            <i class='fas fa-user-alt' style='font-size:48px;color:red'></i>
+
+            <i class='fas fa-envelope-square' style='font-size:48px;color:red'></i>
+           </form>
+         </div> 
+    </div>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+ <app-footer-f></app-footer-f>

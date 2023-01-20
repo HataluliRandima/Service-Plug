@@ -1,0 +1,49 @@
+<app-header></app-header>
+
+<br>
+
+<!-- Page Header Start -->
+<div class="container-fluid bg-secondary py-5">
+    <div class="container py-5">
+        <div class="row align-items-center py-4">
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Profile</h1>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn btn-outline-primary" href="">Home</a>
+                    <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                    <a class="btn btn-outline-primary disabled" href="">Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<h3 class="page-title">Edit ID: {{ idtimeRecord }} </h3>
+<form #f="ngForm">
+   <div >
+    <input   [disabled]="true" type="text" name="merch" matInput [(ngModel)]="merch" >
+    <p [(ngModel)]="merr"></p>
+    <!--
+    <h1>{{s.merchType}}  </h1>
+    <h1>{{s.merchEmail}}  </h1>
+    <h1>{{s.merchAddress}}  </h1>
+    <h1>{{s.merchContactdetails}}  </h1>-->
+    <p> </p>
+    <p></p>
+
+</div>
+</form>
+<button routerLink="bookreview/{{ idtimeRecord }}"  class="btn btn-outline-primary px-4">Completed</button>
+                      
+
+<!-- Footer Start -->
+<div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+        
+    <div class="container border-top border-secondary pt-5">
+        <p class="m-0 text-center text-white">
+            &copy; <a class="text-white font-weight-bold" href="#">ServicePLug</a>. All Rights Reserved. Designed by
+            <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+        </p>
+    </div>
+</div>

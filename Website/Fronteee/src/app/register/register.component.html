@@ -1,0 +1,66 @@
+
+<br>
+<div class="form-container mat-elevation-z5">
+    
+    <div class="center">
+        <a><img width="100px" height="100px" src="assets/img/login.png"  alt=""></a>
+    </div>
+      
+
+    <h1>Register</h1>
+    <form>
+
+   
+            <input matInput type="text" placeholder="Full Name" formControlName="fullname"
+            class="form-control"
+            
+            placeholder="Enter your Full Name" />
+           
+         
+
+
+      
+            <input matInput placeholder="User Name" formControlName="username"
+            class="form-control"
+       
+            placeholder="Enter your User Name" />
+           
+         
+        <input matInput placeholder="Email address" formControlName="email"
+        class="form-control"
+       
+        placeholder="Enter Your Email" />
+    
+    
+        <input matInput placeholder="Contact Details" formControlName="contact"
+        class="form-control"
+       
+        placeholder="Enter Your Contact Details" />
+        
+   
+        <input matInput placeholder="Address" formControlName="address"
+        class="form-control"
+ 
+        placeholder="Enter Your Address" />
+       
+        <input matInput type="Password" placeholder="Password" formControlName="password" 
+        class="form-control"
+         />
+         
+
+
+
+  
+        <input matInput type="password" placeholder="Confirm Password" formControlName="confirmPassword" 
+        class="form-control"
+        />
+      
+ 
+
+      <div class="center margin-top">
+          <button (click)="goToPage('login')">Register</button>
+      </div>
+      <span class="center margin-top">Already have an account loggin here ? <a class="sign-up-link" routerLink="/login">Sign in!</a></span>
+    </form>
+  </div>
+

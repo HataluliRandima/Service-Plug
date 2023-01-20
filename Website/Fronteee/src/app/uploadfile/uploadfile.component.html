@@ -1,0 +1,42 @@
+<div class="body">
+    <div class="wrapper">
+        
+        <header>Merchant Verification</header>
+        <form action="#">
+            <header>Browse File To Upload</header>
+          
+            <Input type="file"  #file multiple >
+
+                <button type="button" class="btn btn-success" (click)="file.click()">Upload File</button>
+                <br>
+
+                <span style="font-weight:bold;color:green;" *ngIf="progress > 0 && progress < 100">{{progress}}%</span>
+
+                <span style="font-weight:bold;color:green;" *ngIf="message"
+                >{{message}}</span>
+        </form>
+    </div>
+    <input type="file" *ngIf="isUserAuthenticated()" (change)="handlefileinput($event)" [multiple]="true" accept=".pdf">
+<h1 *ngIf="isUserAuthenticated()" >ddd</h1>
+<div *ngFor="let a of mercs">
+  <p>{{a.merchName}}</p>
+  <p>{{a.merchId}}</p>
+  <button type="button" (click)="jh()">Test</button>
+  <button type="button" (click)="logout()">Log out</button>
+</div>
+    </div>
+
+
+
+
+    <!-- <div class="form-group">
+        <label for="picture">Picture</label>
+        <div class="custom-file">
+           
+          <input #file type="file" id="customFile" accept=".jpg,.png,.gif" multiple (change)="upload(file.files)" />
+          <label class="custom-file-label" for="customFile">Choose file</label>
+        </div>
+      </div>
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" [style.width.%]="progress"></div>
+      </div> -->

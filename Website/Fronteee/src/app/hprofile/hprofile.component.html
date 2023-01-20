@@ -1,0 +1,92 @@
+ <app-header-f></app-header-f>
+
+ 
+
+<!-- Page Header Start -->
+<!-- <div class="container-fluid bg-secondary py-5">
+    <div class="container py-5">
+        <div class="row align-items-center py-4">
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Profile</h1>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn btn-outline-primary" href="">Home</a>
+                    <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                    <a class="btn btn-outline-primary disabled" href="">Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+<br>
+<!-- Page Header Start -->
+<div class="h11">
+    <h1 class="center">My Profile</h1>
+</div>
+   
+
+  <!-- My code start here of profile-->
+  <div class="container mt-5">
+    
+    <div class="row d-flex justify-content-center">
+        
+        <div class="col-md-7">
+            
+            <div class="card p-3 py-4">
+                
+                <div class="text-center">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp" width="100" class="rounded-circle">
+                </div>
+                
+                <div *ngFor="let met of mercs" class="text-center mt-3">
+                   <!-- <span class="bg-secondary p-1 px-4 rounded text-white">Pro</span>-->
+                    <h5 class="mt-2 mb-0"> 
+                     {{met.userName}} {{met.userSurname}}
+
+                    </h5>
+                    
+                    <div *ngFor="let met of mercs" class="d-flex mt-2"> 
+                        <div id="container">
+                        <button class="btn1 btn-dark" routerLink="editp/{{met.userId}}" >Edit Profile</button> 
+                    </div>
+                        </div> 
+                 <!-- routerLink="edit/{{met.userId}}" (click)="goToPage('myprofile') <div class="px-4 mt-1">
+                        <p class="fonts">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    
+                    </div>-->
+                    
+        
+                    <div class="buttons">
+                        
+                        <button class="btn btn-outline-primary px-4">Orders</button>
+                  
+                        <button class="btn btn-primary px-4 ms-3">Invoices</button>
+
+                        
+                        <button class="btn btn-outline-primary px-4">Completed</button>
+                      
+                       <!--<button class="btn btn-primary px-4 ms-3" (click)="goToPagelogin('login')"  >Log Out</button>--> 
+                         
+
+                    </div>
+                   <!--   <button type="button" class="btn btn-warning btn-rounded">Warning</button>-->
+         
+                </div>
+                           
+            </div>
+            
+        </div>
+        
+    </div>
+    
+</div>
+<br>
+
+
+
+   <!-- Footer Start -->
+ <app-footer-f></app-footer-f>
+
+
+<!-- Footer End -->

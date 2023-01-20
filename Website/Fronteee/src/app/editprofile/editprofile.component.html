@@ -1,0 +1,148 @@
+<!-- Topbar Start -->
+<div class="container-fluid bg-dark py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <span class="text-white">|</span>
+                    <a class="text-white px-3" href="">Help</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white pl-3" href="">Support</a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-3" href="">
+                        <p>Welcome </p>
+                    </a>
+                    <span class="text-white">|</span>
+                    <a class="text-white pl-3" href="">
+
+                        <button type="button" class="btn btn-primary">
+                            Notifications<span class="badge bg-danger ms-2">10</span>
+                        </button>
+
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid position-relative nav-bar p-0">
+    <div class="container position-relative" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+            <a href="" class="navbar-brand">
+                <h1 class="m-0 display-5 text-white"><span class="text-primary">S</span>ervice Plug</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a routerLink="/home" class="nav-item nav-link active">Home</a>
+                    <a routerLink="/booking" class="nav-item nav-link">Book Merchant</a>
+                    <a routerLink="/trackbooking" class="nav-item nav-link">Tracking</a>
+                    <a routerLink="/AboutUs" class="nav-item nav-link">About</a>
+                    <a routerLink="/contact" class="nav-item nav-link">Contact</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Potrait</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a routerLink="/editprofile" class="dropdown-item">Profile</a>
+                            <a routerLink="/register" class="dropdown-item">Log Out</a>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar End -->
+
+
+<!-- Under Nav Start -->
+<div class="container-fluid bg-white py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-left mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Our Office</h5>
+                        <p class="m-0">30-38 Claim street,Doorfontein, GAUTENG</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-left text-lg-center mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-email font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Email Us</h5>
+                        <p class="m-0">serviceplug4@info.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-left text-lg-right mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-telephone font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Call Us</h5>
+                        <p class="m-0">+012 345 6789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container rounded bg-white mt-5 mb-5">
+    <div class="row">
+        <div class="body1">
+            <div class="wrapper" id="photo">
+                
+                <input type="file" class="my_file" id="files">
+            </div>
+        </div>
+      
+        <div class="col-md-5 border-right">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h4 class="text-right">Profile Settings</h4>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-6"><label class="labels">Name</label><input type="text" class="form-control" placeholder="First name" value="">
+                    </div>
+                    <div class="col-md-6"><label class="labels">Surname</label><input type="text" class="form-control" value="" placeholder="Last name">
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-12"><label class="labels">PhoneNumber</label><input type="text" class="form-control" placeholder="Enter Phone number" value="">
+                    </div>
+                    <div class="col-md-12"><label class="labels">Physical Address</label><input type="text" class="form-control" placeholder="Enter address" value="">
+                    </div>
+                    <div class="col-md-12"><label class="labels">Email Adress</label><input type="text" class="form-control" placeholder="Enter Email id" value="">
+                    </div>
+                    <!-- <div class="col-md-12"><label class="labels">Education</label><input type="text" class="form-control" placeholder="education" value="">
+                    </div> -->
+                </div>
+                <div class="row mt-3">
+                    <!-- <div class="col-md-6"><label class="labels">Country</label><input type="text" class="form-control" placeholder="country" value="">
+                    </div> -->
+                    <!-- <div class="col-md-6"><label class="labels">State/Region</label><input type="text" class="form-control" value="" placeholder="state">
+                    </div> -->
+                </div>
+                <div class="mt-5 text-center">
+                    <button class="btn btn-primary profile-button" type="button">Save Profile</button>
+                </div>
+            </div>
+        </div>
+       <!-- You can put a div here that can align on the right of what's above -->
+    </div>
+</div>
+

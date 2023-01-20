@@ -1,0 +1,140 @@
+<app-header-f></app-header-f>
+
+
+<!-- <br>
+
+<div class="container-fluid bg-secondary py-5">
+    <div class="container py-5">
+        <div class="row align-items-center py-4">
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Update Profile</h1>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn btn-outline-primary" href="">Home</a>
+                    <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                    <a class="btn btn-outline-primary disabled" href="">Update Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<br>
+<div
+  class="form-container mat-elevation-z5 text-center">
+  <h1>Update Profile</h1>
+  <div class="profile-image">
+    <img
+      width="120"
+      height="120"
+      class="margin-top mat-elevation-z1"
+    src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3.webp"  
+    />
+   <!--<button mat-mini-fab (click)="inputField.click()">
+      <mat-icon>edit</mat-icon>
+    </button>--> 
+  </div>
+  <br>
+  <input #inputField hidden type="file"   />
+
+  <form class="margin-top" [formGroup]="profileForm"  >
+    <!--(ngSubmit)="onSubmit()"-->
+    <div class="row1">
+      <mat-form-field>
+        <input
+          type="text"
+          matInput
+          formControlName="userId"
+          placeholder="User ID"
+          readonly="true"
+        />
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          type="text"
+          matInput
+          formControlName="userEmail"
+          placeholder="Email Address"
+          readonly="true"
+        />
+      </mat-form-field>
+    </div>
+
+    <div class="row1">
+      <mat-form-field>
+        <input
+          type="text"
+          matInput
+          formControlName="userName"
+          placeholder="First Name"
+        />
+        <span *ngIf="userName && userName.invalid && userName.touched" class="error">Please enter name</span>
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          type="text"
+          matInput
+          formControlName="userSurname"
+          placeholder="Last Name"
+        />
+        <span *ngIf="userSurname && userSurname.invalid && userSurname.touched" class="error">Please enter phonenumber</span>
+      </mat-form-field>
+    </div>
+
+    <div class="row1">
+      <mat-form-field>
+        <input
+          type="text"
+          matInput
+          formControlName="userAddress"
+        placeholder="Address"
+        />
+        <span *ngIf="userAddress && userAddress.invalid && userAddress.touched" class="error">Please enter address</span>
+      </mat-form-field>
+      <mat-form-field>
+        <input
+          type="text"
+          matInput
+          formControlName="userContactdetails"
+          placeholder="Contact Details"
+        />
+        <span *ngIf="userContactdetails && userContactdetails.invalid && userContactdetails.touched" class="error">Please enter phonenumber</span>
+      </mat-form-field>
+    </div>
+    <!-- <div class="row1">
+    <mat-form-field>
+      <input
+        type="text"
+        matInput
+        formControlName="address"
+        placeholder="Address"
+      />
+    </mat-form-field>
+</div>-->
+    <button type="submit" id="bt1" class="margin-top" mat-raised-button color="primary" (click)="opensweet()" >
+      Save
+    </button>
+    <!-- <button type="button" id="bt1" class="margin-top" mat-raised-button color="primary" (click)="opensweet()" >
+      Sweet
+    </button> -->
+    <div class="col-lg-3">
+      <br>
+      <span class={{messageclass}}>{{message}}</span>
+  </div>
+  </form>
+</div>
+<br>
+   <!-- Footer Start -->
+   <!-- <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+        
+    <div class="container border-top border-secondary pt-5">
+        <p class="m-0 text-center text-white">
+            &copy; <a class="text-white font-weight-bold" href="#">ServicePLug</a>. All Rights Reserved. Designed by
+            <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+        </p>
+    </div>
+</div> -->
+<app-footer-f ></app-footer-f>
+<!-- Footer End -->
+

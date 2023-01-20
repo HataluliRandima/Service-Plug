@@ -1,0 +1,43 @@
+.profile-image {
+    position: relative;
+    width: 120px;
+    margin: auto;
+  }
+  
+  .profile-image > img {
+    border-radius: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .profile-image > button {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+  }
+  
+ #bt1{
+    border:1px solid #924c0a !important;
+    background-color:#924c0a;
+    color: #aeaeae;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+ }
+  
+  .row1 {
+    display: flex;
+    gap: 16px;
+
+  }
+
+  .form-container {
+    display: block;
+    max-width: 500px;
+    margin: auto;
+
+    background: #eceff1;
+    padding: 48px;
+    border-radius: 16px;
+}
+

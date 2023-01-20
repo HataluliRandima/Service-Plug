@@ -1,0 +1,113 @@
+<!-- Topbar Start -->
+<div class="container-fluid bg-dark py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <!-- <div class="d-inline-flex align-items-center">
+                    <span class="text-white">|</span>
+                    <a class="text-white px-3" href="">Help</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white pl-3" href="">Support</a>
+                </div> -->
+            </div>
+            <div class="col-md-6 text-center text-lg-right">
+                <div *ngFor="let met of mercs" class="d-inline-flex align-items-center">
+                    <!-- <a class="text-white px-3" href="">
+                        <p>Welcome {{met.userName}}</p>
+                    </a>
+                    <span class="text-white">|</span> -->
+                    
+                    <a class="text-white pl-3" href="">
+
+                        <button type="button" class="btn btn-primary">
+                            {{met.userName}} {{met.userSurname}}  <span class="badge bg-danger ms-2"></span>
+                        </button>
+    
+                    </a>
+                </div>
+           
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Navbar End -->
+<div class="container-fluid position-relative nav-bar p-0">
+    <div class="container position-relative" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+            <a href="" class="navbar-brand">
+                <h1 class="m-0 display-5 text-white"><span class="text-primary">S</span>ervice Plug</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a  routerLink="/home"  class="nav-item nav-link "
+                    routerLinkActive="nav-item nav-link active">Home</a>
+
+                    <a routerLink="/hbooking" class="nav-item nav-link"
+                    routerLinkActive="nav-item nav-link active">Book Merchant</a>
+
+                    <a routerLink="/bbooking" class="nav-item nav-link"
+                    routerLinkActive="nav-item nav-link active">Tracking</a>
+
+                    <a routerLink="/about" class="nav-item nav-link"
+                    routerLinkActive="nav-item nav-link active">About</a>
+
+                    <a routerLink="/contact" class="nav-item nav-link"
+                     routerLinkActive="nav-item nav-link active">Contact</a>
+
+                    <div class="nav-item dropdown">
+                        <a   class="nav-link dropdown-toggle" data-toggle="dropdown">Potrait</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a routerLink="/hprofile" class="dropdown-item">Profile</a>
+                            <a  *ngIf="isUserAuthenticated()" (click)="logOut()"   routerLink="/signin" class="dropdown-item">Log Out</a>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+
+
+<!-- Under Nav Start   -->
+<div class="container-fluid bg-white py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-left mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Our Office</h5>
+                        <p class="m-0">30-38 Claim street,Doorfontein, GAUTENG</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-left text-lg-center mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-email font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Email Us</h5>
+                        <p class="m-0">serviceplug4@info.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-left text-lg-right mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-telephone font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Call Us</h5>
+                        <p class="m-0">+012 345 6789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

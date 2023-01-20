@@ -1,0 +1,173 @@
+<div class="body"> 
+<div class="wrapper">
+    <div class="sidebar">
+        <ul>
+            <a routerLink="/admin">
+                <li routerLinkActive="nav-item nav-link active"><i class="fas fa-home"></i></li>
+                <span style="color: rgb(151, 151, 151);">Dashboard</span>
+            </a>
+            <a routerLink="/vmerchant">
+                <li routerLinkActive="nav-item nav-link active"><i class="fa fa-download"></i></li>
+                <span style="color: rgb(151, 151, 151);">Verification</span>
+            </a>
+            
+            <a href="/">
+                <li><i class="fa fa-sign-out"></i></li>
+                <span style="color: rgb(151, 151, 151);">Sign Out</span>
+            </a>
+        </ul>
+    </div>
+    
+    <section class="main">
+        <div class="main-top">
+            <h1>Verified Merchants</h1>
+            <i class="a fa-user"></i>       
+        </div>
+        <div class="users">
+            <div class="card">
+                <img src="assets/img/hata.jpg">
+                <h4>Randima Hataluli</h4>
+                <p>Plumber</p>
+                <div class="per">
+                    <table>
+                        <tr>
+                            <td><span>85%</span></td>
+                            <td><span>85%</span></td>
+                        </tr>
+                        <tr>
+                            <td>Month</td>
+                            <td>Year</td>
+                        </tr>
+                    </table>
+                </div>
+                <button class="button1">Profile</button>
+            </div>
+            <div class="card">
+                <img src="assets/img/Frenkie.jpeg">
+                <h4>MUKWEVHO MUKHETHWA</h4>
+                <p>GARDENER</p>
+                <div class="per">
+                    <table>
+                        <tr>
+                            <td><span>65%</span></td>
+                            <td><span>50%</span></td>
+                        </tr>
+                        <tr>
+                            <td>Month</td>
+                            <td>Year</td>
+                        </tr>
+                    </table>
+                </div>
+                <button class="button1">Profile</button>
+            </div>
+            <div class="card">
+                <img src="assets/img/LA_AK.jpg">
+                <h4>AKONAHO LAVHELANI</h4>
+                <p>GATEMAKER</p>
+                <div class="per">
+                    <table>
+                        <tr>
+                            <td><span>80%</span></td>
+                            <td><span>70%</span></td>
+                        </tr>
+                        <tr>
+                            <td>Month</td>
+                            <td>Year</td>
+                        </tr>
+                    </table>
+                </div>
+                <button class="button1">Profile</button>
+            </div>
+            <div class="card">
+                <img src="assets/img/Wavho.jpg">
+                <h4>MASAKONA WAVHOTHE</h4>
+                <p>Tiler</p>
+                <div class="per">
+                    <table>
+                        <tr>
+                            <td><span>85%</span></td>
+                            <td><span>87%</span></td>
+                        </tr>
+                        <tr>
+                            <td>Month</td>
+                            <td>Year</td>
+                        </tr>
+                    </table>
+                </div>
+                <button class="button1">Profile</button>
+            </div>
+        </div>
+        <section class="unverified">
+            <div class="unverified-list">
+                <h1>Unverified Merchants List</h1>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Service Offer</th>
+                            <th>City</th>
+                            <th>Download</th>
+                            <th>Verify</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- <tr>
+                            <td>01</td>
+                            <td>John Terry</td>
+                            <td>Brick Layer</td>
+                            <td>Midrand</td>
+                            <td><button class="btn">Download</button></td>
+                             <a href="/singlemerch">
+                            <td><button class="btn">Verify</button></td>
+                        </a>
+                        </tr> -->
+                        <tr *ngFor="let file of files" class="active">
+                            <td>{{file.merchId}}</td>
+                            <td>{{file.merchName}} {{file.merchSurname}}</td>
+                            <td>{{file.merchType}}</td>
+                            <td>{{file.merchCity}}</td>
+                            <td><button class="btn" (click)="downloadFile(file.merchId, file.merchFile)">Download</button></td>
+                            <a routerLink="vsingle/{{file.merchId}}">
+                            <td><button class="btn" 
+                                >Verify
+                            </button></td>
+                        </a>
+                        </tr>
+                        <!-- <tr>
+                            <td>03</td>
+                            <td>Lucas Moore</td>
+                            <td>Painter</td>
+                            <td>Johannesburg</td>
+                            <td><button class="btn">Download</button></td>
+                            <a href="/singlemerch">
+                            <td><button class="btn">Verify</button></td>
+                        </a>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>Bobs Radebe</td>
+                            <td>Roofing</td>
+                            <td>Polokwane</td>
+                            <td><button class="btn">Download</button></td>
+                            <a href="/singlemerch">
+                            <td><button class="btn">Verify</button></td>
+                        </a>
+                        </tr>
+                        <tr>
+                            <td>05</td>
+                            <td>Tshidino Mokono</td>
+                            <td>Electrician</td>
+                            <td>Sandton</td>
+                            <td><button class="btn">Download</button></td>
+                            <a href="/singlemerch">
+                            <td><button class="btn">Verify</button></td>
+                        </a>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </section>
+    </div>
+    </div>

@@ -1,0 +1,136 @@
+<app-header-f></app-header-f>
+<hr>
+<div class="hero">
+    <div class="row">
+        <div class="col">
+
+            <div class="slider" *ngIf="typc ">
+                <!-- <div class="product">
+
+                    <img src="assets\img\Gard4.jpg" alt="" onclick="clickme(this)">
+                    <img src="assets\img\Gard5.webp" alt="" onclick="clickme(this)">
+                    <img src="assets\img\Gard6.webp" alt="" onclick="clickme(this)">
+                    <img src="assets\img\Gard7.jpg" alt="" onclick="clickme(this)">
+
+                </div> -->
+                <div class="preview">
+                    <img src="assets\img\Gard4.jpg" id="imagebox" alt="">
+                </div>
+            </div>
+            <div class="slider" *ngIf="typrf ">
+              
+                <div class="preview">
+                    <img src="assets\img\roof111.jpeg" id="imagebox" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="col">
+            <div class class="content">
+              <div class="service">
+                <h1 style="font-family: Oswald; font-size:30px; margin-left: -100px;">Service Name : {{tp}}</h1><br>
+              </div> 
+
+                <h3 style="font-family: Oswald; font-size:30px; margin-left: -100px;">Merchant Name : {{merch}}</h3> <br>
+                <h2 style="font-family: Oswald; font-size:30px; margin-left: -100px;"> Merchant Surname :{{merr}}</h2> <br>
+                <h4 style="font-family: Oswald; font-size:30px; margin-left: -100px;">Merchant Addresss : {{tb}}  {{ta}}</h4><br>
+                <h4 style="font-family: Oswald; font-size:30px; margin-left: -100px;"> Merchant Number :{{numb}}</h4>
+                
+                <div class="reviews">
+                    <button style="font-family: Oswald; font-size:20px; margin-left: -100px;" class="btn btn-primary booking-button" type="button"
+                    data-toggle="modal" data-target="#exampleModal111"
+                     (click)="revrev(idtimeRecord)"> View Reviews</button>  
+                </div>
+            </div>
+            <button routerLink="bookreserve/{{ idtimeRecord }}" style="font-family: Oswald; font-size:20px; margin-left: -100px;" class="button1" type="button">Add</button>
+           
+                
+                <!-- <div class="buttons">
+                <button routerLink="datepickerf/{{ idtimeRecord }}" class="btn btn-primary booking-button" type="button">Add to Service</button>
+                <button type="button" class="btn btn-primary px-4 ms-3" 
+                 data-toggle="modal" data-target="#exampleModal111">View Revies</button>
+               </div> -->
+           
+            
+            <!-- <button routerLink="datepickerf/{{ idtimeRecord }}" class="btn btn-primary booking-button" type="button">Add to Service</button> -->
+        </div>
+    </div>
+
+
+
+       
+
+    <!-- <div class="related">
+        <h2>related items</h2>
+        <div class="row">
+            <div class="columns">
+                <div class="items">
+                    <img src="assets\img\Gard0.jpeg" alt="">
+                    <div class="details">
+                        <p>Woman Brown Solid Biker Jacket</p>
+                       
+
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="items">
+                    <img src="assets\img\Gard1.jpg" alt="">
+                    <div class="details">
+                        <p>Navy Blue Flared Palazzos</p>
+                        
+
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="items">
+                    <img src="assets\img\Gard2.jpg" alt="">
+                    <div class="details">
+                        <p>Jacquard Banarasi Dupatta</p>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="items">
+                    <img src="assets\img\Gard3.jpg" alt="">
+                    <div class="details">
+                        <p>Printed Straight Kurta</p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</div>
+
+           <!-- Modal for the quotations-->
+           <div class="modal fade" id="exampleModal111" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Reviews Details</h5>
+                  <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button> -->
+                </div>
+                <div  *ngFor="let a of ata" class="modal-body">
+                 <p>Rating :  {{a.reviewRating}}</p>
+                  <p>Review Description : {{a.reviewMessage}} </p>
+                 
+                 <p></p> 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <br><br><br><br>
+
+<app-footer-f></app-footer-f>
+
+

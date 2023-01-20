@@ -1,0 +1,196 @@
+<div  class="body">
+	<div class="wrapper">
+		<div class="sidebar">
+			<ul>
+				<a routerLink="/adminf">
+					<li routerLinkActive="nav-item nav-link active"><i class="fas fa-home"></i></li>
+					<span style="color: rgb(151, 151, 151);font-family: Oswald;color: black;">Dashboard</span>
+				</a>
+				<a routerLink="/verifyf">
+					<li routerLinkActive="nav-item nav-link active"><i class="fa fa-download"></i></li>
+					<span style="color: rgb(151, 151, 151); text-align: center;font-family: Oswald;color: black"> Verification</span>
+				</a>
+				<!-- <a routerLink="/reportsf">
+					<li routerLinkActive="nav-item nav-link active"><i class="fa fa-file" aria-hidden="true"></i></li>
+					<span style="color: rgb(151, 151, 151); text-align: center;font-family: Oswald;color: black"> Reports</span>
+				</a> -->
+
+					
+				<div class="dropdown">
+					<a href="/adminf" >
+						<li><i class="fa fa-file" aria-hidden="true"></i></li>
+						<span class="dropbtn" style="color: rgb(151, 151, 151); text-align: center;font-family: Oswald;color: black"> Reports</span>
+						<div class="dropdown-content">
+							<a href="/reportf" style="color: rgb(151, 151, 151); text-align: center;font-family: Oswald;color: black">Previous Booking</a>
+							<a href="/rating" style="color: rgb(151, 151, 151); text-align: center;font-family: Oswald;color: black">Ratings</a>
+							
+								<!-- <div class="dropdown-content"> -->
+									<a href="/adminf" style="color: rgb(151, 151, 151); text-align: center;font-family: Oswald;color: black">Popular Service
+										<div class="dropdown-content">
+											<a href="/brequest" style="color: rgb(151, 151, 151); text-align: center;font-family: Oswald;color: black"> Booking Request</a>
+											<a href="/arequest" style="color: rgb(151, 151, 151); text-align: center;font-family: Oswald;color: black"> Accepted Request</a>
+											<a href="/cbooking" style="color: rgb(151, 151, 151); text-align: center;font-family: Oswald;color: black"> Completed Bookings</a>
+											<a href="/serviceby" style="color: rgb(151, 151, 151); text-align: center;font-family: Oswald;color: black"> Service By Category</a>
+										  
+											 </div>
+									 </a>
+								<!-- </div> -->
+								
+								
+
+						  </div>
+					</a>
+				  </div>
+			
+				<a routerLink="/signin">
+					<li><i class="fa fa-sign-out"></i></li>
+					<span style="color: rgb(151, 151, 151);font-family: Oswald;color: black">Sign Out</span>
+				</a>
+			</ul>
+		</div>
+		<div class="main">
+			<div class="head">
+				<div style="font-family: Oswald;color: black" class="head-title">
+					<h2 >Dashboard</h2>
+					<span>Admin Updates</span>
+				</div>
+				<div style="font-family: Oswald;color: black" class="head-search">
+					<input type="search" placeholder="Search">
+				</div>
+			</div>
+			<div class="main-board">
+				<div class="card-board">
+					<div class="card">
+						<div class="card-icon">
+							<i class="fa fa-eye" style="font-size:60px;"></i>
+							<i class="fas fa-ellipsis-v"></i>
+						</div>
+						<span style="font-family: Oswald;color: black">Daily Views</span>
+						<h5>250</h5>
+					</div>
+					<div class="card">
+						<div class="card-icon">
+							<i class="fa fa-wrench" style="font-size:60px ;"></i>
+							<i class="fas fa-ellipsis-v"></i>
+						</div>
+						<span style="font-family: Oswald;color: black">Services</span>
+						<h5>15</h5>
+					</div>
+					<div class="card">
+						<div class="card-icon">
+							<i class="fa fa-pencil-square-o" style="font-size:60px ;"></i>
+							<i class="fas fa-ellipsis-v"></i>
+						</div>
+						<span style="font-family: Oswald;color: black">Bookings</span>
+						<h5>{{aa}}</h5>
+					</div>
+					<div class="card">
+						<div class="card-icon">
+							<i class="fa fa-star " style="font-size:60px ;"></i>
+							<i class="fas fa-ellipsis-v"></i>
+						</div>
+						<span style="font-family: Oswald;color: black">Rating</span>
+						<h5>5</h5>
+					</div>
+					<div class="card">
+						<div class="card-icon">
+							<i class="fa fa-comment-o" style="font-size:60px ;"></i>
+							<i class="fas fa-ellipsis-v"></i>
+						</div>
+						<span style="font-family: Oswald;color: black">Reviews</span>
+						<h5>170</h5>
+					</div>
+				</div>
+             
+			  <div style="font-family: Oswald;color: black" class="details">
+				 <!--Booking detail list-->
+				<div class="recentBookings">
+					<div class="cardHeader">
+						<h2>Recent Bookings</h2>
+						<a href="#" class="btn"> View All</a>
+					</div>
+					<table>
+						<thead>
+							<tr>
+						    <td>Date</td>
+							<td>Name</td>
+							<td>Status</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status delivered">Done</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status delivered">Done</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status delivered">Done</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status inprogress">In Progress</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status inprogress">In Progress</span></td>
+							</tr>
+						
+						</tbody>
+					</table>
+				</div>
+				<!--Merchants on the block-->
+				<div class="recentMerchants">
+					<div class="cardHeader">
+						<h2>Recent Merchants</h2>
+					</div>
+					<table class="table">
+                        <tbody *ngFor="let met of mercs">
+						<tr >
+							<td width="60px"><div class="imgBx"> </div></td>
+							<td><h4>{{met.merchName}} {{met.merchSurname}}<br><span>{{met.merchCity}}</span></h4></td>
+						</tr>
+                    </tbody>
+			 
+					</table>
+				</div>
+
+
+			  </div>
+			</div>
+		</div>
+	</div>
+</div>

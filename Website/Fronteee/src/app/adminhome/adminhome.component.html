@@ -1,0 +1,184 @@
+<div class="body">
+	<div class="wrapper">
+		<div class="sidebar">
+			<ul>
+				<a  routerLink="/admin">
+					<li routerLinkActive="nav-item nav-link active"><i class="fas fa-home"></i></li>
+					<span style="color: rgb(151, 151, 151);">Dashboard</span>
+				</a>
+				<a routerLink="/vmerchant">
+					<li routerLinkActive="nav-item nav-link active"><i class="fa fa-download"></i></li>
+					<span style="color: rgb(151, 151, 151); text-align: center;"> Verification</span>
+				</a>
+			
+				<a routerLink="/signin">
+					<li><i class="fa fa-sign-out"></i></li>
+					<span style="color: rgb(151, 151, 151);">Sign Out</span>
+				</a>
+			</ul>
+		</div>
+		<div class="main">
+			<div class="head">
+				<div class="head-title">
+					<h2>Dashboard</h2>
+					<span>Admin Updates</span>
+				</div>
+				<div class="head-search">
+					<input type="search" placeholder="Search">
+				</div>
+			</div>
+			<div class="main-board">
+				<div class="card-board">
+					<div class="card">
+						<div class="card-icon">
+							<i class="fa fa-eye" style="font-size:60px ;"></i>
+							<i class="fas fa-ellipsis-v"></i>
+						</div>
+						<span>Daily Views</span>
+						<h5>250</h5>
+					</div>
+					<div class="card">
+						<div class="card-icon">
+							<i class="fa fa-wrench" style="font-size:60px ;"></i>
+							<i class="fas fa-ellipsis-v"></i>
+						</div>
+						<span>Services</span>
+						<h5>15</h5>
+					</div>
+					<div class="card">
+						<div class="card-icon">
+							<i class="fa fa-pencil-square-o" style="font-size:60px ;"></i>
+							<i class="fas fa-ellipsis-v"></i>
+						</div>
+						<span>Bookings</span>
+						<h5>10</h5>
+					</div>
+					<div class="card">
+						<div class="card-icon">
+							<i class="fa fa-star " style="font-size:60px ;"></i>
+							<i class="fas fa-ellipsis-v"></i>
+						</div>
+						<span>Rating</span>
+						<h5>5</h5>
+					</div>
+					<div class="card">
+						<div class="card-icon">
+							<i class="fa fa-comment-o" style="font-size:60px ;"></i>
+							<i class="fas fa-ellipsis-v"></i>
+						</div>
+						<span>Reviews</span>
+						<h5>170</h5>
+					</div>
+				</div>
+             
+			  <div class="details">
+				 <!--Booking detail list-->
+				<div class="recentBookings">
+					<div class="cardHeader">
+						<h2>Recent Bookings</h2>
+						<a href="#" class="btn"> View All</a>
+					</div>
+					<table>
+						<thead>
+							<tr>
+						    <td>Date</td>
+							<td>Name</td>
+							<td>Status</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status delivered">Done</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status delivered">Done</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status delivered">Done</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status inprogress">In Progress</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status pending">Pending</span></td>
+							</tr>
+							<tr>
+								<td>01-05 2022 </td>
+								<td> M MUKWEVHO</td>
+								<td><span class="status inprogress">In Progress</span></td>
+							</tr>
+						
+						</tbody>
+					</table>
+				</div>
+				<!--Merchants on the block-->
+				<div class="recentMerchants">
+					<div class="cardHeader">
+						<h2>Recent Merchants</h2>
+					</div>
+					<table class="table">
+                        <tbody>
+						<tr *ngFor="let met of mercs">
+							<td width="60px"><div class="imgBx">></div></td>
+							<td><h4>{{met.merchName}} {{met.merchSurname}}<br><span>{{met.merchCity}}</span></h4></td>
+						</tr>
+						<!-- <tr>
+							<td width="60px"><div class="imgBx"><img src="assets/img/hata.jpg"></div></td>
+							<td><h4>Hataluli<br><span>Khubvi</span></h4></td>
+						</tr>
+						<tr>
+							<td width="60px"><div class="imgBx"><img src="assets/img/hata.jpg"></div></td>
+							<td><h4>Hataluli<br><span>Khubvi</span></h4></td>
+						</tr>
+						<tr>
+							<td width="60px"><div class="imgBx"><img src="assets/img/hata.jpg"></div></td>
+							<td><h4>Hataluli<br><span>Khubvi</span></h4></td>
+						</tr>
+						<tr>
+							<td width="60px"><div class="imgBx"><img src="assets/img/hata.jpg"></div></td>
+							<td><h4>Hataluli<br><span>Khubvi</span></h4></td>
+						</tr>
+						<tr>
+							<td width="60px"><div class="imgBx"><img src="assets/img/hata.jpg"></div></td>
+							<td><h4>Hataluli<br><span>Khubvi</span></h4></td>
+						</tr> -->
+                        </tbody>
+					</table>
+				</div>
+
+
+			  </div>
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,97 @@
+<app-header-f></app-header-f>
+<hr>
+
+<div class="body">
+	<div class="header">
+		<form [formGroup]="form" action="" class="booking-form">
+			<h1> Find Everything Near You </h1>
+			<div class="form-box">
+                <select class="search-field" id="category">
+                    <option value="null" selected>Select Category</option>
+                    <option value="GATEMAKER">GATE MAKER</option>
+                    <option value="TILING">TILING</option>
+                    <option value="ROOFING">ROOFING</option>
+                    <option value="BRICKLAYING">BRICKLAYING</option>
+                    <option value="CAPENTRY">CAPENTRY</option>
+                    <option value="GARDENING">GARDENING</option>
+                    <option value="PLUMBING">PLUMBING</option>
+                    <option value="PLUSTERING">PLUSTERING</option>
+                  </select>
+             
+				<input type="text" 
+                #addresstext id="address" name="address"
+                class ="search-field location" placeholder="Location"
+                data-large-mode="true" 
+                formControlName="address"
+                >
+
+
+                <input type="text" 
+                id="city" name="city"
+                class ="search-field area"
+                data-large-mode="true"
+                formControlName="city" 
+                placeholder="City">
+
+
+
+				<button 
+                 type="button"
+                class="search-btn" 
+                id="btnAddProgram" 
+                (click)="Searchcity()"
+                type="button">Search</button>
+                 
+		</div>
+        
+	</form>
+</div>
+<button 
+                 type="button"
+                class="search-btn" 
+                id="btnAddProgram" 
+                (click)="Searchcity()"
+                type="button">Search</button>
+
+
+
+<!--The code for merchant being searched from database-->
+<div class="content">
+<h1>Searched Merchants</h1>
+<section class="brows-job-category">
+    <div class="container">
+        <!-- Company Searrch Filter Start -->    
+        <!-- Company Searrch Filter End -->
+        <div *ngFor="let met of mercs" class="item-click">
+            <article>
+                <div class="brows-job-list">
+                    <div class="col-md-1 col-sm-2 small-padding">
+                        <div class="brows-job-company-img">
+                            <a href="job-detail.html"><img src="assets/img/icon-9.png" class="img-responsive" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-5">
+                        <div class="brows-job-position">
+                          <a routerLink="singlemerchant/{{met.merchId}}">{{met.merchId}}</a>
+                            <a href="job-apply-detail.html"><h2>{{met.merchType}}</h2></a>
+                            <h4>{{met.merchName}} {{ met.merchSurname}} </h4>
+                            <p>
+                                 <span class="brows-job-sallery"><i class="fa fa-money"></i>$810 - 900</span>
+                               
+                            </p>
+                            
+                           
+                        </div>
+                    </div>
+                     
+                   
+                </div>
+            </article>
+        </div>
+         
+    </div>
+</section>
+
+</div>
+</div>
+<app-footer-f></app-footer-f>

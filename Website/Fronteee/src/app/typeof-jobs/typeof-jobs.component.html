@@ -1,0 +1,229 @@
+
+<!-- Topbar Start -->
+<div class="container-fluid bg-dark py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    <span class="text-white">|</span>
+                    <a class="text-white px-3" href="">Help</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white pl-3" href="">Support</a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-3" href="">
+                        <p>Welcome </p>
+                    </a>
+                    <span class="text-white">|</span>
+                    <a class="text-white pl-3" href="">
+
+                        <button type="button" class="btn btn-primary">
+                            Notifications<span class="badge bg-danger ms-2">10</span>
+                        </button>
+
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid position-relative nav-bar p-0">
+    <div class="container position-relative" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+            <a href="" class="navbar-brand">
+                <h1 class="m-0 display-5 text-white"><span class="text-primary">S</span>ervice Plug</h1>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0">
+                    <a routerLink="/home" class="nav-item nav-link active">Home</a>
+                    <a routerLink="/booking" class="nav-item nav-link">Book Merchant</a>
+                    <a routerLink="/trackbooking" class="nav-item nav-link">Tracking</a>
+                    <a routerLink="/AboutUs" class="nav-item nav-link">About</a>
+                    <a routerLink="/contact" class="nav-item nav-link">Contact</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Potrait</a>
+                        <div class="dropdown-menu rounded-0 m-0">
+                            <a routerLink="/profile" class="dropdown-item">Profile</a>
+                            <a routerLink="/register" class="dropdown-item">Log Out</a>
+                        </div>
+                    </div>
+
+
+
+
+
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar End -->
+
+
+<!-- Under Nav Start -->
+<div class="container-fluid bg-white py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-left mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Our Office</h5>
+                        <p class="m-0">30-38 Claim street,Doorfontein, GAUTENG</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-left text-lg-center mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-email font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Email Us</h5>
+                        <p class="m-0">serviceplug4@info.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-left text-lg-right mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-telephone font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Call Us</h5>
+                        <p class="m-0">+012 345 6789</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Navbar End -->
+
+<p> <strong>DEFAULT TYPES OF JOBS </strong><br>
+    <span>Quality Service Is What We Prioritise</span>
+    </p>
+    
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('Tiling')"> Tiling</button>
+      <button class="btn" onclick="filterSelection('Roofing')"> Roofing</button>
+      <button class="btn" onclick="filterSelection('Gardening')"> Gardening</button>
+    </div>
+    
+    <!-- Portfolio Gallery Grid -->
+    <div class="row">
+      <div class="column Tiling">
+        <div class="content" id="Tile1">
+          <img src="assets\img\Tile1.jpg" alt="Tiling" style="width:100%" id="myImg">
+          <input type="button" onclick="AddToCart(Tile1)" name="" (click)="goToPage('Addtoservice')" value="Add to Service"  class="add" />
+          <h4>Indoor Tiling</h4>
+          <p>We give a peaceful home...</p>
+        </div>
+      </div>
+    
+      <div class="column Tiling">
+          <div class="content">
+            <img src="assets\img\Tile2.jpg" alt="Tiling" style="width:100%" id="myImg">
+            <input type="button" name="" (click)="goToPage('Addtoservice')" value="Add to Service"  class="add" />
+            <h4>Outdoor Tiling</h4>
+            <p>Elegant look and resort feel..</p>
+          </div>
+        </div>
+    
+        <div class="column Tiling">
+          <div class="content">
+            <img src="assets\img\Tile3.jpg" alt="Tiling" style="width:100%" id="myImg">
+            <input type="button" name="" (click)="goToPage('Addtoservice')" value="Add to Service"  class="add" />
+            <h4>Installation</h4>
+            <p>We serve quality everywhere we go..</p>
+          </div>
+        </div>
+      
+        <div class="column Roofing">
+          <div class="content">
+            <img src="assets\img\Roof3.jpg" alt="Roofing" style="width:100%" id="myImg">
+            <input type="button" name="" (click)="goToPage('Addtoservice')" value="Add to Service"  class="add" />
+            <h4>Ceramic roofing tiles</h4>
+            <p>Perfect option for pitched roofs...</p>
+          </div>
+        </div>
+    
+        <div class="column Roofing">
+          <div class="content">
+            <img src="assets\img\Roof2.jpg" alt="Car" style="width:100%" id="myImg">
+            <input type="button" name="" (click)="goToPage('Addtoservice')" value="Add to Service"  class="add" />
+            <h4>Slate roofing</h4>
+            <p>Slate roofing has a beautiful, rustic look...</p>
+          </div>
+        </div>
+    
+        <div class="column Roofing">
+          <div class="content">
+            <img src="assets\img\Roof1.jpg" alt="Car" style="width:100%" id="myImg">
+            <input type="button" name="" (click)="goToPage('Addtoservice')" value="Add to Service"  class="add" />
+            <h4>Shingles roofing</h4>
+            <p>Long life span, Color and style selection..</p>
+          </div>
+        </div>
+    
+        <div class="column Gardening">
+          <div class="content">
+            <img src="assets\img\Gard1.jpg" alt="Gardening" style="width:100%" id="myImg">
+            <input type="button" name="" (click)="goToPage('Addtoservice')" value="Add to Service"  class="add" />
+            <h4>Nurture a Garden</h4>
+            <p>A garden requires patient labor..</p>
+          </div>
+        </div>
+    
+        <div class="column Gardening">
+          <div class="content">
+            <img src="assets\img\Gard2.jpg" alt="Gardening" style="width:100%" id="myImg">
+            <input type="button" name="" (click)="goToPage('Addtoservice')" value="Add to Service"  class="add" />
+            <h4>Water Garden</h4>
+            <p>Gardens add years to our life..</p>
+          </div>
+        </div>
+    
+        <div class="column Gardening">
+          <div class="content">
+            <img src="assets\img\Gard3.jpg" alt="Gardening" style="width:100%" id="myImg">
+            <input type="button" name="" (click)="goToPage('Addtoservice')" value="Add to Service"  class="add" />
+            <h4>Container Garderning</h4>
+            <p>Don't stop be-leaf-ing...</p>
+          </div>
+        </div>
+    
+        <!-- The Modal -->
+    <div id="myModal" class="modal">
+    
+      <!-- The Close Button -->
+      <span class="close">&times;</span>
+    
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
+    
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+    
+        
+      <!-- END GRID -->
+      </div>
+
+                         <!-- Footer Start -->
+<div class="container-fluid bg-dark text-white py-5 px-sm-3 px-md-5">
+
+    <div class="container border-top border-secondary pt-5">
+        <p class="m-0 text-center text-white">
+            &copy; <a class="text-white font-weight-bold" href="#">ServicePLug</a>. All Rights Reserved. Designed by
+            <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+        </p>
+    </div>
+</div>
+<!-- Footer End -->
+    

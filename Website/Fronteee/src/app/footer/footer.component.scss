@@ -1,0 +1,18 @@
+.body a{
+    display:inline-block;
+    margin-right:1em;
+ }
+ /* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color:#CD7F32;
+    padding: 10px 0px;
+    color: white;
+    
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+   
+  }

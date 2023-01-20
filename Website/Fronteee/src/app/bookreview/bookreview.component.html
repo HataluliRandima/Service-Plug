@@ -1,0 +1,80 @@
+<app-header-f></app-header-f>
+<form [formGroup]="addUserForm" (ngSubmit)="saveUserTyped()"> 
+    <h1>Client Details</h1>
+    <div *ngFor="let a of mercs">
+        <p>{{a.userName}}</p>
+        <p>{{a.userSurname}}</p>
+        <p> Address : {{a.userProvince}}  {{a.userCity}}</p>
+        <a href="https://www.flaticon.com/free-icons/address" title="address icons" class="a">Address icons created by Freepik - Flaticon</a>
+        <i class='fas fa-calendar-alt' style='font-size:48px;color:black'></i>
+
+        <i class='far fa-clock' style='font-size:48px;color:red'></i>
+
+        <i class='fas fa-calendar-check' style='font-size:48px;color:red'></i>
+
+        <i class='fas fa-home' style='font-size:48px;color:red'></i>
+
+        <i class='fas fa-phone-square' style='font-size:48px;color:red'></i>
+
+        <i class='fas fa-envelope-square' style='font-size:48px;color:red'></i>
+
+        <i class='fas fa-user-cog' style='font-size:48px;color:red'></i>
+
+        <i class='fas fa-user-alt' style='font-size:48px;color:red'></i>
+
+        <i class='far fa-comment-alt' style='font-size:48px;color:red'></i>
+
+        <i class='fas fa-sync' style='font-size:48px;color:red'></i>
+
+        <i class='far fa-check-circle' style='font-size:48px;color:red'></i>
+    </div>
+    <input type="datetime-local" class="form-control" formControlName="data">
+    <label>Information</label>
+    <input type="text" class="form-control" formControlName="info">
+    <div class="matdatepicker">
+        <h4>Mat date Picker</h4>
+        <mat-form-field appearance="fill">
+    
+          <mat-label>Choose a date</mat-label>
+          <input matInput [matDatepicker]="picker"  min="{{currentDate | date:'yyyy-MM-dd'}}" [(ngModel)]="selectedMatDate">
+           
+          <!-- <mat-hint>MM/DD/YYYY</mat-hint> -->
+          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+         <mat-form-field appearance="fill">
+    
+            <mat-label>Choose a Time</mat-label>
+             
+            <input matInput type="time" id="appt" name="appt"
+            min="09:00" max="18:00" required ngModel="time">
+         
+        
+          </mat-form-field>  
+       
+    
+    </div>
+    <div class="ordinaryDateInput">
+        <h4>ordinary Date Input</h4>
+        <input type="date" name="ordinary" min="{{currentDate | date:'yyyy-MM-dd'}}" [(ngModel)]="ordinaryDateSelected">
+        <p>Date Selected: {{ordinaryDateSelected}}</p>
+        <input type="time" id="appt" name="appt"
+min="09:00" max="18:00" required ngModel="time">
+      </div>
+    <h1>Merchant Details</h1>
+<p>{{merch}}</p>
+<p>{{aa}}</p>
+<p>{{bb}}</p>
+<p>{{cc}}</p>
+
+<p>{{tt}}</p>
+
+
+</form>
+<button   class="btn btn-outline-primary px-4"
+ (click)="opensweet()">Send Request</button>
+
+ <button   class="btn btn-outline-primary px-4"
+ >Cancel Request</button>
+
+ <app-footer-f></app-footer-f>

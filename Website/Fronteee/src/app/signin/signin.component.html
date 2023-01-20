@@ -1,0 +1,42 @@
+
+<br>
+<div class="form-container mat-elevation-z5">
+  <!--Picture part-->   
+    <div class="center">
+        <a><img width="200px" height="200px" src="assets/img/Logo.png"  alt=""></a>
+    </div>
+   
+    <h1 style="font-family: Oswald; color: black;">Login</h1>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+      <mat-form-field>
+        <input style="font-family: Oswald; color: black;" matInput placeholder="Email address" formControlName="email"
+        class="form-control"
+        [ngClass]="{ 'is-invalid': submitted && f['email'].errors }"
+        placeholder="Enter Your Email" />
+        <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
+            <div *ngIf="f['email'].errors?.['required']">Email is required</div>
+            <div *ngIf="f['email'].errors?.['email']">Email is invalid</div>
+          </div>
+      </mat-form-field>
+      <mat-form-field>
+        <input style="font-family: Oswald; color: black;" matInput type="password" placeholder="Password" formControlName="password" 
+        class="form-control"
+          [ngClass]="{ 'is-invalid': submitted && f['password'].errors }"/>
+          <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
+            <div *ngIf="f['password'].errors?.['required']">Password is required</div>
+            <div *ngIf="f['password'].errors?.['minlength']">
+              Password must be at least 6 characters
+            </div>
+            <div *ngIf="f['password'].errors?.['maxlength']">
+              Username must not exceed 40 characters
+            </div>
+          </div>
+      </mat-form-field>
+      <div class="center margin-top">
+          <button [disabled]="!form.valid " style="font-family: Oswald; color: black;" type="submit" mat-raised-button color="primary">Login</button>
+      </div>
+      <div *ngIf="invalidLogin" class="alert alert-danger">Invalid username or Password</div>
+      <br>
+      <span style="font-family: Oswald; color: black;" class="center margin-top">New to our platform? <a class="sign-up-link" routerLink="../signup">Sign up!</a></span>
+    </form>
+  </div>

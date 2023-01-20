@@ -1,0 +1,198 @@
+
+<app-header-f></app-header-f>
+
+ <hr>
+  
+<!-- <div class="container-fluid bg-secondary py-5">
+    <div class="container py-5">
+        <div class="row align-items-center py-4">
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Book Merchant</h1>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn btn-outline-primary" href="/home">Home</a>
+                    <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                    <a class="btn btn-outline-primary disabled" href="">Book Merchant</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+ 
+<div class="container tm-mt-big tm-mb-big">
+    <div class="row">
+      <div class="col-xl-12 col-lg-10 col-md-12 col-sm-12 mx-auto">
+        <div class="tm-bg-primary-dark tm-block tm-block-h-auto">
+          <div class="row">
+            <div class="col-12">
+              <h1 id="title" class="tm-block-title d-inline-block" style="font-family: Oswald; color: black;">Search For Merchant</h1>
+            </div>
+            
+          </div>
+          <hr>
+          <div class="row tm-edit-product-row">
+            <div class="col-xl-6 col-lg-6 col-md-12">
+              <form [formGroup]="form" action="" class="tm-edit-product-form">
+                <div class="row">
+                  <div class="form-group mb-3 col-xs-12 col-sm-6">
+                    <label for="category" style="font-family: Oswald; color: black;">Category of Merchant</label>
+                    <select class="custom-select tm-select-accountss" id="category"   formControlName="type" >
+                      <option value="null" selected>Select Category</option>
+                      <option value="1">GATE MAKER</option>
+                      <option value="TILING">TILING</option>
+                      <option value="ROOFING">ROOFING</option>
+                      <option value="CAPENTRY">BRICKLAYING</option>
+                      <option value="CAPENTRY">CAPENTRY</option>
+                      <option value="GARDENING">GARDENING</option>
+                      <option value="PLUMBING">PLUMBING</option>
+                      <option value="NAN">NAN</option>
+                    </select>
+                       
+                  </div>
+
+                  <div class="form-group mb-3 col-xs-12 col-sm-6">
+                    <label for="address" style="font-family: Oswald; color: black;">Address</label>
+                    <input #addresstext id="address" name="address" type="text" placeholder="Enter your address" class="form-control validate" data-large-mode="true" 
+                    formControlName="address" style="font-family: Oswald; color: black;"/>
+                  </div>
+                      <div class="form-group mb-3 col-xs-12 col-sm-6">
+                    <label for="area" style="font-family: Oswald; color: black;">City</label>
+                    <input id="city" name="city" type="text" class="form-control validate" data-large-mode="true"
+                    formControlName="city" style="font-family: Oswald; color: black;"/>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <!-- 
+                      [(ngModel)]="typelo" 
+                      [(ngModel)]="locationname"
+                      <div class="form-group mb-3 col-xs-12 col-sm-6">
+                    <label for="closingDate">Closing Date</label>
+                    <input id="closingDate" name="closingDate" type="date" class="form-control validate" required />
+                  </div> -->
+                 <!--  <div class="form-group mb-3 col-xs-12 col-sm-12"> < 
+                    <label for="startDate">Start Date</label>
+                    <input id="startDate" name="startDate" type="date" class="form-control validate"
+                      data-large-mode="true" />
+                        <div class="form-group mb-3 col-xs-12 col-sm-6">
+                    <label for="area">Area</label>
+                    <input id="locality" name="area" type="text" class="form-control validate" data-large-mode="true" />
+                  </div>
+                  </div> -->
+                </div>        
+            <br><br>
+            <div class="col-12">
+              <button id="btnAddProgram" type="button" class="btn btn-primary btn-block text-uppercase" (click)="Searchcity()" style="font-family: Oswald;  ">Search for Merchant</button>
+                
+            </div>   
+<br>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<hr>
+  <!--The code of searched meachant-->
+  <section class="brows-job-category">
+    <div class="container">
+        <!-- Company Searrch Filter Start -->    
+        <!-- Company Searrch Filter End -->
+        <div *ngFor="let met of mercs" class="item-click">
+            <article>
+                <div class="brows-job-list">
+                    <div class="col-md-1 col-sm-2 small-padding">
+                        <div class="brows-job-company-img">
+                            <a routerLink="singlemerchant/{{met.merchId}}"><img src="assets/img/icon-9.png" class="img-responsive" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-6 col-sm-5">
+                        <div class="brows-job-position">
+                          <!-- <a routerLink="singlemerchant/{{met.merchId}}">{{met.merchId}}</a> -->
+                            <a routerLink="singlemerchant/{{met.merchId}}"><h2>{{met.merchType}}</h2></a>
+                            <h4>{{met.merchName}} {{ met.merchSurname}} </h4>
+                            <p>
+                                  
+                               
+                            </p>
+                            
+                           
+                        </div>
+                    </div>
+                  </div>
+                   
+                </div>
+            </article>
+        </div>
+        
+     
+     
+       <!-- <div class="item-click">
+            <article>
+                <div class="brows-job-list">
+                    <div class="col-md-1 col-sm-2 small-padding">
+                        <div class="brows-job-company-img">
+                            <a href="job-detail.html"><img src="assets/img/icon-10.png" class="img-responsive" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-5">
+                        <div class="brows-job-position">
+                            <a href="job-apply-detail.html"><h3>BRICKLAYING</h3></a>
+                              <h4>Cheese Boy</h4>
+                            <p>
+                                <span>Google</span><span class="brows-job-sallery"><i class="fa fa-money"></i>$810 - 900</span>
+                                <span class="job-type bg-trans-warning cl-warning">Part Time</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="brows-job-location">
+                            <p><i class="fa fa-map-marker"></i>RANDBURG, C40</p>
+                        </div>
+                    </div>
+                  
+                </div>
+            </article>
+        </div>
+       
+        <div class="item-click">
+            <article>
+                <div class="brows-job-list">
+                    <div class="col-md-1 col-sm-2 small-padding">
+                        <div class="brows-job-company-img">
+                            <a href="job-detail.html"><img src="assets/img/icon-5.png" class="img-responsive" alt="" /></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-5">
+                        <div class="brows-job-position">
+                            <a href="job-apply-detail.html"><h3>TILING</h3></a>
+                              <h4>Masakona Suave</h4>
+                            <p>
+                                <span>Google</span><span class="brows-job-sallery"><i class="fa fa-money"></i>$810 - 900</span>
+                                <span class="job-type bg-trans-warning cl-warning">Part Time</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-3">
+                        <div class="brows-job-location">
+                            <p><i class="fa fa-map-marker"></i>Johannesburg, C40</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </article>
+        </div>
+         
+         -->
+     
+        
+    </div>
+</section>
+<br>
+
+<app-footer-f></app-footer-f>

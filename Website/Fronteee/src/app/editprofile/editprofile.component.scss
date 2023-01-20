@@ -1,0 +1,116 @@
+
+
+
+body 
+{
+    background: #CD7F32
+}
+
+.body1{
+    margin:0;
+    padding: 0;
+    background: #CD7F32;
+}
+.wrapper{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    border:5px solid #fff;
+    border-radius: 50%;
+    background: url("../../assets/img/Frenkie.jpeg");
+    background-size: 100% 100%;
+    margin: 100px auto;
+    overflow:hidden
+}
+.my_file{
+    position:absolute;
+    bottom: 0;
+    outline: none;
+    color: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 120px;
+    cursor: pointer;
+    transition: 0.5s;
+    background: rgba(0,0,0,0.4);
+     opacity: 0 ;
+}
+.my_file::-webkit-file-upload-button{
+    visibility: hidden;
+}
+.my_file::before{
+  content:'\f030';
+  font-family: fontAwesome;
+  font-size: 50px;
+  color: #fff;
+  display: inline-block;
+ 
+
+}
+.my_file::after{
+    content: 'Update';
+    font-family: 'arial';
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    top:70px;
+    font-size: 14px;
+    position: absolute;
+}
+
+.my_file:hover{
+    opacity: 1;
+}
+.form-control:focus
+{
+    box-shadow: none;
+    border-color: #CD7F32
+}
+
+.profile-button
+ {
+    color: #fff;
+background-color:  #CD7F32;
+font-weight: 700;
+height: 60px;
+padding: 10px 30px;
+width: 50%;
+border-radius: 40px;
+border: none;
+text-transform: uppercase;
+font-size: 16px;
+letter-spacing: 1.3px;
+-webkit-transition: 0.2s all;
+transition: 0.2s all
+}
+.profile-button:hover
+{
+    background:#CD7F32;
+    opacity: 0.9
+}
+.profile-button:focus
+{
+    background: #CD7F32;
+    box-shadow: none
+}
+.profile-button:active
+{
+    background: #CD7F32;
+    box-shadow: none
+}
+.back:hover
+{
+    color: #CD7F32;
+    cursor: pointer
+}
+.labels
+{
+    font-size: 11px
+}
+.add-experience:hover
+{
+    background: #CD7F32;
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px #CD7F32
+}

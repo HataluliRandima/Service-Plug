@@ -1,0 +1,45 @@
+<app-header></app-header>
+
+<div class="container-fluid bg-secondary py-5">
+    <div class="container py-5">
+        <div class="row align-items-center py-4">
+            <div class="col-md-6 text-center text-md-left">
+                <h1 class="mb-4 mb-md-0 text-primary text-uppercase">Book Merchant</h1>
+            </div>
+            <div class="col-md-6 text-center text-md-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="btn btn-outline-primary" href="/home">Home</a>
+                    <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                    <a class="btn btn-outline-primary disabled" href="">Book Merchant</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="body">
+	<div class="header">
+		<form class="booking-form">
+			<h1> Find Everything Near You </h1>
+			<div class="form-box">
+                <select class="search-field" id="category">
+                    <option value="null" selected>Select Category</option>
+                    <option value="1">GATE MAKER</option>
+                    <option value="2">TILING</option>
+                    <option value="3">ROOFING</option>
+                    <option value="4">BRICKLAYING</option>
+                    <option value="5">CAPENTRY</option>
+                    <option value="6">GARDENING</option>
+                    <option value="7">PLUMBING</option>
+                    <option value="8">PLUSTERING</option>
+                  </select>
+             
+				<input type="text" class ="search-field location" placeholder="Location">
+                <input type="text" class ="search-field area" placeholder="Area">
+				<button class="search-btn" type="button">Search</button>
+		</div>
+	</form>
+</div>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,92 @@
+<app-header-f></app-header-f>
+<br>
+<hr>
+<section class="pt-50 pb-120 tracking-wrap">
+    <div class="theme-container container ">
+        <div class="row">
+            <article class="card">
+                
+                <header class="card-header" style="font-family: Oswald; color: black;"> Client Details  </header> 
+                
+                <Details style="font-family: Oswald; color: black;">
+                    <div *ngFor="let a of mercs"> 
+                <i style="margin-left:10px; font-size:25px; color: black;" class="fa fa-home" aria-hidden="true"><header style="font-family: Oswald; font-size: 20px; color: black;">{{a.userProvince}} {{a.userCity}}</header></i> <br>
+                <!-- <i style="margin-left:10px; font-size:25px; color: black;"class="fa fa-phone-square" aria-hidden="true"><header style="font-family: Oswald; font-size: 20px; color: black;">{{a.userContactdetails}}</header></i><br> -->
+                <i  style="margin-left:10px; font-size:25px; color: black;" class="fa fa-id-card" aria-hidden="true"><header style="font-family: Oswald; font-size: 20px; color: black;">{{a.userName}} {{a.userSurname}}</header></i>
+            </div>
+            </Details>
+       
+                <div class="card-body" style="font-family: Oswald; color: black;">
+                    <br>
+                    <h6 >Booking Review</h6>
+                    <hr>
+                    <br>
+                    <!-- <mat-form-field class="form-control" appearance="fill">
+    
+                        <mat-label style="font-family: Oswald; color: white;">SERVICE IN</mat-label>
+                        
+                        <input matInput [matDatepicker]="picker"  min="{{currentDate | date:'yyyy-MM-dd'}}" [(ngModel)]="selectedMatDate" style="font-family: Oswald; color: white;"
+                        formControlName="data"
+                        >
+                         
+                       
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                      </mat-form-field> -->
+                    <article class="card">
+                        <form [formGroup]="addUserForm" (ngSubmit)="saveUserTyped()">
+                        <div class="card-body row">
+                            
+                            <div class="form-group" style="margin-left:11px; width:250px">
+                                
+                                
+                                
+                                    <input class="form-control"  matInput [matDatepicker]="picker"  min="{{currentDate | date:'yyyy-MM-dd'}}" [(ngModel)]="selectedMatDate" 
+                                    formControlName="data"
+                                    >
+                                    <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                    <mat-datepicker #picker></mat-datepicker>
+                                
+                                <!-- <input class="form-control" type="date" required>
+                                <span class="form-label"style="font-family: Oswald; color: white;"></span> -->
+                                <textarea style="margin-top:30px; width: 250px;" class="textArea" placeholder="Describe in details what kind of service you want" formControlName="infoo"></textarea>
+                            </div>
+                            <div style="margin-left: 50px;width:250px"class="form-group">
+                                <input class="form-control" type="time" step="1"  formControlName="timee" required>
+                                <span class="form-label"style="font-family: Oswald; color: white;"></span>
+                          
+                            </div>
+                            
+
+                        </div>
+                    </form>
+                    </article>
+                    <br>
+                    <h6>Merchant Details</h6>
+                    <hr>
+                    <Details>
+                        <i style="margin-left:10px; font-size:25px; color: black;" class="fa fa-home" aria-hidden="true"><header style="font-family: Oswald; font-size: 20px; color: black;">{{dd}} {{ee}}</header></i> <br>
+                        <i style="margin-left:10px; font-size:25px; color: black;"class="fa fa-phone-square" aria-hidden="true"><header style="font-family: Oswald; font-size: 20px; color: black;">{{cc}}</header></i><br>
+                        <i  style="margin-left:10px; font-size:25px; color: black;" class="fa fa-id-card" aria-hidden="true"><header style="font-family: Oswald; font-size: 20px; color: black;">{{merch}} {{aa}}</header></i>
+                          <br>
+                        <i  style="margin-left:10px; font-size:25px; color: black;" class="fas fa-envelope-square" aria-hidden="true"><header style="font-family: Oswald; font-size: 20px; color: black;"> {{bb}}</header></i>
+                        {{tt}}
+                        <!-- {{cc}} -->
+                    </Details>
+                    <hr>
+                    <div class="button">
+                        <button style="width:200px; height: 50px; background:  #CD7F32; color: #fff;" (click)="opensweet()">Book Now</button>
+                    </div>
+                </div>
+            </article>
+           
+        </div>
+        
+    </div>
+  
+</section>
+
+<br>
+<hr>
+
+<app-footer-f></app-footer-f>

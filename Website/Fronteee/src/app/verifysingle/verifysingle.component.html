@@ -1,0 +1,32 @@
+<div class="body">
+    <div class="container">
+        <div class="profile-box">
+            <form [formGroup]="form" action="" class="tm-edit-product-form">
+            <img src="assets/img/menu.png" class="menu-icon">
+            <img src="assets/img/setting.png" class="setting-icon">
+            <img src="assets/img/profile-pic.png" class="profile-pic">
+            <a href="/admin">
+            <img src="assets/img/back.jpg" class="return-icon">
+            </a>
+    
+            <h3>{{merch}} {{merr}}</h3>
+            <p>{{tp}} <br>
+               {{tb}}, {{ta}} <br>
+   
+            </p>
+             
+            <select name="verify" id="format" formControlName="merchVerify"  >
+                <option selected disabled> Verify</option>
+                <option value="Active">Activate</option>
+                <option value="Deactivate">Deactivate</option>
+                </select> <br>
+        
+            
+            
+            <div class="profile-bottom">
+                <button type="button" (click)="opensweet()">Verify</button>
+            </div>
+            </form>
+        </div>
+    </div>
+    </div>

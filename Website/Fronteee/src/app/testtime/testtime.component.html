@@ -1,0 +1,79 @@
+ 
+  <div class="paneContainer">
+    <div class="matdatepicker">
+      <h4>Mat date Picker</h4>
+      <mat-form-field appearance="fill">
+  
+        <mat-label>Choose a date</mat-label>
+        <input matInput [matDatepicker]="picker"  min="{{currentDate | date:'yyyy-MM-dd'}}" [(ngModel)]="selectedMatDate">
+        <!-- <mat-hint>MM/DD/YYYY</mat-hint> -->
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    <p>Date Selected:{{selectedMatDate}}</p>
+  
+    </div>
+  
+      <div class="ordinaryDateInput">
+        <h4>ordinary Date Input</h4>
+        <input type="date" name="ordinary" min="{{currentDate | date:'yyyy-MM-dd'}}" [(ngModel)]="ordinaryDateSelected">
+        <p>Date Selected: {{ordinaryDateSelected}}</p>
+      </div>
+    </div>
+  
+
+    <h1> For Time Testing </h1>
+    
+    <!-- <igx-time-picker
+    [(ngModel)]="time"
+    [itemsDelta]="{hours:2, minutes:5}"
+    [inputFormat]="'H:mm'"
+    [headerOrientation]="true"
+    [minValue]="min"
+    [maxValue]="max"
+    (validationFailed)="onValidationFailed()">
+    <label igxLabel>Meeting Start</label>
+    </igx-time-picker>
+
+    <igx-toast #toast>Value must be between {{min}} and {{max}}.</igx-toast>
+
+
+    <mat-form-field>
+        <input matInput
+               name="selected_time_B"
+               format="24"
+               [(ngModel)]="selectedTime"
+               [ngxMatTimepicker]="pickerB"
+               placeholder="16:00"
+               readonly />
+        <mat-icon matSuffix
+                  (click)="pickerB.open()">
+            watch_later
+        </mat-icon>
+    </mat-form-field>
+    <ngx-mat-timepicker color="accent"
+                        #pickerB></ngx-mat-timepicker> -->
+
+                        <form>
+                            <!-- min="{{currentDate | date:'yyyy-MM-dd'}}"  -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input class="form-control" type="time"
+                                        
+                                        required 
+                                        
+                                         >
+                                        <span class="form-label">Service In</span>
+                                    </div>
+                                </div>
+    
+                            </div>
+                      
+                           
+                        </form>
+
+
+                        
+<input type="time" id="appt" name="appt"
+min="09:00" max="18:00" required ngModel="time">

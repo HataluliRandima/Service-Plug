@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    ;
+   
+}
+
+
+.booking-form
+{
+    position: relative;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;padding: 40px;
+    overflow: hidden;
+    // background-image:url("../../assets/img/unsplash.jpg");  
+    background-size: cover;
+ 
+}
+
+.header{
+  //  height: 100vh;
+  //  background-image:url("../../assets/img/Loco1.jpg"); 
+   
+   // display: flex;
+   // justify-content: center;
+  //  align-items: center;
+   // font-family: sans-serif ;
+}
+h1{
+    color: #fff;
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.search-field
+{
+      height: 50px;
+      padding: 10px;
+      margin: 10px;
+      border: #CD7F32;
+      border-radius: 25px;
+      outline: none;
+      -webkit-box-shadow: 0px 0px 0px 2px #CD7F32;
+            box-shadow: 0px 0px 0px 2px  #CD7F32
+    
+}
+.category
+{
+    width: 400px;
+    
+}
+.location
+{
+    width: 200px;
+}
+.search-btn
+{
+    height: 50px;
+    width: 150px;
+    background:  #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+}
+.search-btn:hover
+{
+    background: #ffc107;
+    cursor: pointer;
+}
+.form-box
+{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}

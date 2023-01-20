@@ -1,0 +1,132 @@
+ 
+<br>
+<div class="form-container mat-elevation-z5">
+    
+    <div class="center">
+        <a><img width="200px" height="200px" src="assets/img/Logo.png"  alt=""></a>
+    </div>
+      
+
+    <h1>Register</h1>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+
+   
+          <mat-form-field>
+            <input matInput placeholder="User Name" formControlName="username"
+            class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && f['username'].errors }"
+            placeholder="Enter your User Name" />
+            <div *ngIf="submitted && f['username'].errors" class="invalid-feedback">
+                <div *ngIf="f['username'].errors?.['required']">Username is required</div>
+                <div *ngIf="f['username'].errors?.['minlength']">
+                  Username must be at least 6 characters
+                </div>
+                <div *ngIf="f['username'].errors?.['maxlength']">
+                  Username must not exceed 20 characters
+                </div>
+              </div>
+          </mat-form-field>
+          <mat-form-field>
+            <input matInput type="text" placeholder="Surname" formControlName="Surname"
+            class="form-control"
+            [ngClass]="{ 'is-invalid': submitted && f['Surname'].errors }"
+            placeholder="Enter your SurName" />
+            <div *ngIf="submitted && f['Surname'].errors" class="invalid-feedback">
+                <div *ngIf="f['Surname'].errors?.['required']">Surname is required</div>
+              </div>
+          </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Email address" formControlName="email"
+        class="form-control"
+        [ngClass]="{ 'is-invalid': submitted && f['email'].errors }"
+        placeholder="Enter Your Email" />
+        <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
+            <div *ngIf="f['email'].errors?.['required']">Email is required</div>
+            <div *ngIf="f['email'].errors?.['email']">Email is invalid</div>
+          </div>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Contact Details" formControlName="contact"
+        class="form-control"
+        [ngClass]="{ 'is-invalid': submitted && f['contact'].errors }"
+        placeholder="Enter Your Contact Details" />
+        <div *ngIf="submitted && f['contact'].errors" class="invalid-feedback">
+            <div *ngIf="f['contact'].errors?.['required']">Contact is required</div>
+            <div *ngIf="f['contact'].errors?.['minlength']">Contact must be at least 10 characters</div>
+          </div>
+      </mat-form-field>
+
+
+      <mat-form-field>
+        <input matInput #addresstext  placeholder="Address" formControlName="address" autocomplete="off"
+        class="form-control" id="address"
+        [ngClass]="{ 'is-invalid': submitted && f['address'].errors }"
+        placeholder="Enter Your Address" />
+        <div *ngIf="submitted && f['address'].errors" class="invalid-feedback">
+            <div *ngIf="f['address'].errors?.['required']">Address is required</div>
+          </div>
+      </mat-form-field>
+
+
+      <mat-form-field>
+        <input matInput placeholder="City" formControlName="city"
+        class="form-control" id="city"
+        [ngClass]="{ 'is-invalid': submitted && f['city'].errors }"
+        placeholder="Enter Your City" />
+        <div *ngIf="submitted && f['city'].errors" class="invalid-feedback">
+            <div *ngIf="f['city'].errors?.['required']">City is required</div>
+          </div>
+      </mat-form-field>
+
+
+      <mat-form-field>
+        <input matInput placeholder="province" formControlName="province"
+        class="form-control" id="province"
+        [ngClass]="{ 'is-invalid': submitted && f['province'].errors }"
+        placeholder="Enter Your province" />
+        <div *ngIf="submitted && f['province'].errors" class="invalid-feedback">
+            <div *ngIf="f['address'].errors?.['required']">Province is required</div>
+          </div>
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput type="Password" placeholder="Password" formControlName="password" 
+        class="form-control"
+          [ngClass]="{ 'is-invalid': submitted && f['password'].errors }"/>
+          <div *ngIf="submitted && f['password'].errors" class="invalid-feedback">
+            <div *ngIf="f['password'].errors?.['required']">Password is required</div>
+            <div *ngIf="f['password'].errors?.['minlength']">
+              Password must be at least 6 characters
+            </div>
+            <div *ngIf="f['password'].errors?.['maxlength']">
+              Username must not exceed 40 characters
+            </div>
+          </div>
+      </mat-form-field>
+
+
+      <mat-form-field>
+        <input matInput type="password" placeholder="Confirm Password" formControlName="confirmPassword" 
+        class="form-control"
+        [ngClass]="{ 'is-invalid': submitted && f['confirmPassword'].errors }"/>
+        <div
+        *ngIf="submitted && f['confirmPassword'].errors"
+        class="invalid-feedback"
+      >
+        <div *ngIf="f['confirmPassword'].errors?.['required']">
+          Confirm Password is required
+        </div>
+        <div *ngIf="f['confirmPassword'].errors?.['matching']">
+          Confirm Password does not match
+        </div>
+      </div>
+      </mat-form-field>
+
+      <div class="center margin-top">
+          <button [disabled]="form.value.password != form.value.confirmPassword"   (click)="reg()"       type="submit" mat-raised-button color="primary">Register</button>
+      </div>
+      <span class="center margin-top">Already have an account loggin here ? <a class="sign-up-link" routerLink="/signin">Sign in!</a></span>
+    </form>
+  </div>
